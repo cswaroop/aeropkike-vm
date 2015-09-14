@@ -1,0 +1,569 @@
+<ns2:FDOServiceResponse xmlns:ns2="http://fdo.dam.om.fico.com/fdoserviceresponse"><ns2:Response WorkItemRef="1"><Outputs ActivityId="3b1d2635-29bd-4ed5-bd0c-836230e78e22" ActivityRef="1"><Output name="ReadableResponse"><Readable> <TransUnionResponse>
+                <TransactionControlSegment>
+                        <SegmentLength>062</SegmentLength>
+                        <VersionSwitch>0</VersionSwitch>
+                        <CountryCode>1</CountryCode>
+                        <LanguageIndicator>1</LanguageIndicator>
+                        <UserReferenceNumber>                        </UserReferenceNumber>
+                        <BureauMarket>06</BureauMarket>
+                        <BureauSubmarket>TR</BureauSubmarket>
+                        <IndustryCode>Z </IndustryCode>
+                        <MemberCode>01000669</MemberCode>
+                        <TransactionDate>20150911</TransactionDate>
+                        <TransactionTime>012022</TransactionTime>
+                </TransactionControlSegment>
+                <CustomerDataSegment>
+                        <SegmentLength>041</SegmentLength>
+                        <CustomerIdentifierQualifier>5 </CustomerIdentifierQualifier>
+                        <CustomerIdentifier>001026              </CustomerIdentifier>
+                        <Reserved>    </Reserved>
+                        <Filler>        </Filler>
+                </CustomerDataSegment>
+                <ServiceHeaderSegment>
+                        <SegmentLength>012</SegmentLength>
+                        <ServiceCode>07000</ServiceCode>
+                        <SubjectHeaderSegment>
+                                <SegmentLength>027</SegmentLength>
+                                <SubjectIdentifier>1</SubjectIdentifier>
+                                <FileNumber>01</FileNumber>
+                                <FileHit>Y</FileHit>
+                                <SSNMatchIndicator>03</SSNMatchIndicator>
+                                <ConsumerStatementIndicator>N</ConsumerStatementIndicator>
+                                <BureauMarketFileControl>45</BureauMarketFileControl>
+                                <BureauSubmarketFileControl>WI</BureauSubmarketFileControl>
+                                <SuppressionIndicator>N</SuppressionIndicator>
+                                <InFileSinceDate>20131231</InFileSinceDate>
+                                <ProdSegs>
+                                        <AddressSegment>
+                                                <SegmentLength>105</SegmentLength>
+                                                <SourceIndicator>F</SourceIndicator>
+                                                <AddressQualifier>1</AddressQualifier>
+                                                <AddressType>1</AddressType>
+                                                <HouseNumber>10655     </HouseNumber>
+                                                <Predirectional>  </Predirectional>
+                                                <StreetName>BIRCH                      </StreetName>
+                                                <Postdirectional>  </Postdirectional>
+                                                <StreetType>  </StreetType>
+                                                <ApartmentOrUnitNumber>123AB</ApartmentOrUnitNumber>
+                                                <City>BURBANK                    </City>
+                                                <State>CA</State>
+                                                <ZIPCode>91502     </ZIPCode>
+                                                <DateReported>20131216</DateReported>
+                                        </AddressSegment>
+                                        <EmploymentSegment>
+                                                <SegmentLength>100</SegmentLength>
+                                                <EmployerName>TEST                               </EmployerName>
+                                                <SourceIndicator>F</SourceIndicator>
+                                                <Occupation>TEST                  </Occupation>
+                                                <DateHired>20100901</DateHired>
+                                                <DateSeparated>        </DateSeparated>
+                                                <DateVerifiedOrReported>20150810</DateVerifiedOrReported>
+                                                <DateVerifiedOrReportedCode>V</DateVerifiedOrReportedCode>
+                                                <Income>         </Income>
+                                                <PayBasis> </PayBasis>
+                                        </EmploymentSegment>
+                                        <EmploymentSegment>
+                                                <SegmentLength>100</SegmentLength>
+                                                <EmployerName>QWEE                               </EmployerName>
+                                                <SourceIndicator>F</SourceIndicator>
+                                                <Occupation>NJKJL                 </Occupation>
+                                                <DateHired>20050901</DateHired>
+                                                <DateSeparated>        </DateSeparated>
+                                                <DateVerifiedOrReported>20150810</DateVerifiedOrReported>
+                                                <DateVerifiedOrReportedCode>V</DateVerifiedOrReportedCode>
+                                                <Income>         </Income>
+                                                <PayBasis> </PayBasis>
+                                        </EmploymentSegment>
+                                        <InquirySegment>
+                                                <SegmentLength>065</SegmentLength>
+                                                <BureauMarket>06</BureauMarket>
+                                                <BureauSubmarket>TR</BureauSubmarket>
+                                                <IndustryCode>Z </IndustryCode>
+                                                <MemberCode>01000669</MemberCode>
+                                                <SubscriberName>FAIR ISAAC              </SubscriberName>
+                                                <InquiryType>I</InquiryType>
+                                                <LoanType>  </LoanType>
+                                                <LoanAmount>         </LoanAmount>
+                                                <DateOfInquiry>20150911</DateOfInquiry>
+                                        </InquirySegment>
+                                        <InquirySegment>
+                                                <SegmentLength>065</SegmentLength>
+                                                <BureauMarket>40</BureauMarket>
+                                                <BureauSubmarket>LO</BureauSubmarket>
+                                                <IndustryCode>B </IndustryCode>
+                                                <MemberCode>02382255</MemberCode>
+                                                <SubscriberName>HSBC                    </SubscriberName>
+                                                <InquiryType>I</InquiryType>
+                                                <LoanType>  </LoanType>
+                                                <LoanAmount>         </LoanAmount>
+                                                <DateOfInquiry>20150808</DateOfInquiry>
+                                        </InquirySegment>
+                                        <NameStandardSegment>
+                                                <SegmentLength>070</SegmentLength>
+                                                <SourceIndicator>F</SourceIndicator>
+                                                <NameIndicator>1</NameIndicator>
+                                                <LastName>CONSUMER                 </LastName>
+                                                <FirstName>JONATHAN       </FirstName>
+                                                <MiddleName>Q              </MiddleName>
+                                                <Prefix>   </Prefix>
+                                                <Suffix>   </Suffix>
+                                        </NameStandardSegment>
+                                        <PersonalInformationSegment>
+                                                <SegmentLength>029</SegmentLength>
+                                                <SourceIndicator>F</SourceIndicator>
+                                                <SocialSecurityNumber>666603388</SocialSecurityNumber>
+                                                <DateOfBirth>1987-E  </DateOfBirth>
+                                                <Age>   </Age>
+                                                <Gender> </Gender>
+                                        </PersonalInformationSegment>
+                                        <CreditSummaryDescriptionSegment>
+                                                <SegmentLength>056</SegmentLength>
+                                                <SummaryType>R</SummaryType>
+                                                <HighCredit>000004001</HighCredit>
+                                                <CreditLimit>000005000</CreditLimit>
+                                                <Balance>000000000</Balance>
+                                                <AmountPastDue>000000000</AmountPastDue>
+                                                <MonthlyPayment>000000000</MonthlyPayment>
+                                                <PercentCreditAvailable>100</PercentCreditAvailable>
+                                        </CreditSummaryDescriptionSegment>
+                                        <CreditSummaryDescriptionSegment>
+                                                <SegmentLength>056</SegmentLength>
+                                                <SummaryType>T</SummaryType>
+                                                <HighCredit>000004001</HighCredit>
+                                                <CreditLimit>000005000</CreditLimit>
+                                                <Balance>000000000</Balance>
+                                                <AmountPastDue>000000000</AmountPastDue>
+                                                <MonthlyPayment>000000000</MonthlyPayment>
+                                                <PercentCreditAvailable>   </PercentCreditAvailable>
+                                        </CreditSummaryDescriptionSegment>
+                                        <CreditSummarySegment>
+                                                <SegmentLength>041</SegmentLength>
+                                                <CreditSummaryReportingPeriod>1</CreditSummaryReportingPeriod>
+                                                <NumberOfPublicRecords>000</NumberOfPublicRecords>
+                                                <NumberOfCollections>000</NumberOfCollections>
+                                                <NumberOfNegativeTrades>000</NumberOfNegativeTrades>
+                                                <TradesWithAnyHistoricalNegative>000</TradesWithAnyHistoricalNegative>
+                                                <OccurrenceOfHistoricalNegatives>000</OccurrenceOfHistoricalNegatives>
+                                                <NumberOfTrades>003</NumberOfTrades>
+                                                <NumberOfRevolvingAndCheckCreditTrades>003</NumberOfRevolvingAndCheckCreditTrades>
+                                                <NumberOfInstallmentTrades>000</NumberOfInstallmentTrades>
+                                                <NumberOfMortgageTrades>000</NumberOfMortgageTrades>
+                                                <NumberOfOpenTradeAccounts>000</NumberOfOpenTradeAccounts>
+                                                <NumberOfInquiries>002</NumberOfInquiries>
+                                        </CreditSummarySegment>
+                                        <IDMismatchAlertSegment>
+                                                <SegmentLength>012</SegmentLength>
+                                                <AddressType> </AddressType>
+                                                <MessageType>2</MessageType>
+                                                <AlertCondition>1</AlertCondition>
+                                                <NumberOfInquiriesInLast60Days>00</NumberOfInquiriesInLast60Days>
+                                        </IDMismatchAlertSegment>
+                                        <TradeSegment>
+                                                <SegmentLength>288</SegmentLength>
+                                                <IndustryCode>C </IndustryCode>
+                                                <MemberCode>02163001</MemberCode>
+                                                <SubscriberName>NBGL-SAKS               </SubscriberName>
+                                                <AccountType>R</AccountType>
+                                                <AccountNumber>8612                    </AccountNumber>
+                                                <AccountDesignator>I</AccountDesignator>
+                                                <DateOpened>20080804</DateOpened>
+                                                <DateVerified>20141112</DateVerified>
+                                                <TradeVerificationIndicator>A</TradeVerificationIndicator>
+                                                <DateClosed>20131104</DateClosed>
+                                                <DateClosedIndicator>C</DateClosedIndicator>
+                                                <DatePaidOut>        </DatePaidOut>
+                                                <DateOfLastActivity>        </DateOfLastActivity>
+                                                <CurrentMannerOfPayment>01</CurrentMannerOfPayment>
+                                                <Currency>1</Currency>
+                                                <Balance>000000000</Balance>
+                                                <HighCredit>000000000</HighCredit>
+                                                <CreditLimit>         </CreditLimit>
+                                                <TermsDuration>   </TermsDuration>
+                                                <TermsFrequencyOfPayment> </TermsFrequencyOfPayment>
+                                                <TermsAmountOfPayment>         </TermsAmountOfPayment>
+                                                <Collateral>                                    </Collateral>
+                                                <LoanType>CH</LoanType>
+                                                <RemarksCode>CLO</RemarksCode>
+                                                <AmountPastDue>000000000</AmountPastDue>
+                                                <NumberOfPaymentsPastDue>  </NumberOfPaymentsPastDue>
+                                                <MaxDelinquencyAmount>         </MaxDelinquencyAmount>
+                                                <MaximumDelinquencyDate>        </MaximumDelinquencyDate>
+                                                <MaximumDelinquencyMOP>  </MaximumDelinquencyMOP>
+                                                <PaymentPatternStartDate>20141012</PaymentPatternStartDate>
+                                                <PaymentPattern>1                                               </PaymentPattern>
+                                                <NumberOfMonthsReviewed>01</NumberOfMonthsReviewed>
+                                                <Times30DaysLate>00</Times30DaysLate>
+                                                <Times60DaysLate>00</Times60DaysLate>
+                                                <Times90DaysLate>00</Times90DaysLate>
+                                                <HistoricalCountersVerificationIndicator>2</HistoricalCountersVerificationIndicator>
+                                        </TradeSegment>
+                                        <TradeSegment>
+                                                <SegmentLength>288</SegmentLength>
+                                                <IndustryCode>C </IndustryCode>
+                                                <MemberCode>02163001</MemberCode>
+                                                <SubscriberName>NBGL-SAKS               </SubscriberName>
+                                                <AccountType>R</AccountType>
+                                                <AccountNumber>9441                    </AccountNumber>
+                                                <AccountDesignator>I</AccountDesignator>
+                                                <DateOpened>20090531</DateOpened>
+                                                <DateVerified>20141111</DateVerified>
+                                                <TradeVerificationIndicator>A</TradeVerificationIndicator>
+                                                <DateClosed>20131103</DateClosed>
+                                                <DateClosedIndicator>C</DateClosedIndicator>
+                                                <DatePaidOut>        </DatePaidOut>
+                                                <DateOfLastActivity>        </DateOfLastActivity>
+                                                <CurrentMannerOfPayment>01</CurrentMannerOfPayment>
+                                                <Currency>1</Currency>
+                                                <Balance>000000000</Balance>
+                                                <HighCredit>000000000</HighCredit>
+                                                <CreditLimit>         </CreditLimit>
+                                                <TermsDuration>   </TermsDuration>
+                                                <TermsFrequencyOfPayment> </TermsFrequencyOfPayment>
+                                                <TermsAmountOfPayment>         </TermsAmountOfPayment>
+                                                <Collateral>                                    </Collateral>
+                                                <LoanType>CH</LoanType>
+                                                <RemarksCode>CLO</RemarksCode>
+                                                <AmountPastDue>000000000</AmountPastDue>
+                                                <NumberOfPaymentsPastDue>  </NumberOfPaymentsPastDue>
+                                                <MaxDelinquencyAmount>         </MaxDelinquencyAmount>
+                                                <MaximumDelinquencyDate>        </MaximumDelinquencyDate>
+                                                <MaximumDelinquencyMOP>  </MaximumDelinquencyMOP>
+                                                <PaymentPatternStartDate>20141011</PaymentPatternStartDate>
+                                                <PaymentPattern>1                                               </PaymentPattern>
+                                                <NumberOfMonthsReviewed>01</NumberOfMonthsReviewed>
+                                                <Times30DaysLate>00</Times30DaysLate>
+                                                <Times60DaysLate>00</Times60DaysLate>
+                                                <Times90DaysLate>00</Times90DaysLate>
+                                                <HistoricalCountersVerificationIndicator>2</HistoricalCountersVerificationIndicator>
+                                        </TradeSegment>
+                                        <TradeSegment>
+                                                <SegmentLength>288</SegmentLength>
+                                                <IndustryCode>A </IndustryCode>
+                                                <MemberCode>01LS3001</MemberCode>
+                                                <SubscriberName>BRONCO MOTOR            </SubscriberName>
+                                                <AccountType>R</AccountType>
+                                                <AccountNumber>12345                   </AccountNumber>
+                                                <AccountDesignator>P</AccountDesignator>
+                                                <DateOpened>20101217</DateOpened>
+                                                <DateVerified>20140610</DateVerified>
+                                                <TradeVerificationIndicator>A</TradeVerificationIndicator>
+                                                <DateClosed>        </DateClosed>
+                                                <DateClosedIndicator> </DateClosedIndicator>
+                                                <DatePaidOut>        </DatePaidOut>
+                                                <DateOfLastActivity>20110402</DateOfLastActivity>
+                                                <CurrentMannerOfPayment>01</CurrentMannerOfPayment>
+                                                <Currency>1</Currency>
+                                                <Balance>         </Balance>
+                                                <HighCredit>000004001</HighCredit>
+                                                <CreditLimit>000005000</CreditLimit>
+                                                <TermsDuration>   </TermsDuration>
+                                                <TermsFrequencyOfPayment> </TermsFrequencyOfPayment>
+                                                <TermsAmountOfPayment>         </TermsAmountOfPayment>
+                                                <Collateral>                                    </Collateral>
+                                                <LoanType>CC</LoanType>
+                                                <RemarksCode>   </RemarksCode>
+                                                <AmountPastDue>000000000</AmountPastDue>
+                                                <NumberOfPaymentsPastDue>  </NumberOfPaymentsPastDue>
+                                                <MaxDelinquencyAmount>         </MaxDelinquencyAmount>
+                                                <MaximumDelinquencyDate>        </MaximumDelinquencyDate>
+                                                <MaximumDelinquencyMOP>  </MaximumDelinquencyMOP>
+                                                <PaymentPatternStartDate>20140510</PaymentPatternStartDate>
+                                                <PaymentPattern>X111X1                                          </PaymentPattern>
+                                                <NumberOfMonthsReviewed>06</NumberOfMonthsReviewed>
+                                                <Times30DaysLate>00</Times30DaysLate>
+                                                <Times60DaysLate>00</Times60DaysLate>
+                                                <Times90DaysLate>00</Times90DaysLate>
+                                                <HistoricalCountersVerificationIndicator>2</HistoricalCountersVerificationIndicator>
+                                        </TradeSegment>
+                                </ProdSegs>
+                                <AddOnSegment>
+                                        <SegmentLength>017</SegmentLength>
+                                        <ServiceCode>07030</ServiceCode>
+                                        <ServiceStatus>01</ServiceStatus>
+                                        <SearchStatus>P04</SearchStatus>
+                                </AddOnSegment>
+                                <AddOnSegment>
+                                        <SegmentLength>017</SegmentLength>
+                                        <ServiceCode>06500</ServiceCode>
+                                        <ServiceStatus>01</ServiceStatus>
+                                        <SearchStatus>   </SearchStatus>
+                                        <YearOfIssuanceSegment>
+                                                <SegmentLength>036</SegmentLength>
+                                                <IDQualifier>1 </IDQualifier>
+                                                <MessageCode>5504  </MessageCode>
+                                                <SourceIndicator>F</SourceIndicator>
+                                                <NumberOfYearsCovered>  </NumberOfYearsCovered>
+                                                <RangeOfYearsIssuedFrom>1992</RangeOfYearsIssuedFrom>
+                                                <RangeOfYearsIssuedTo>0000</RangeOfYearsIssuedTo>
+                                                <StateCode>NM</StateCode>
+                                                <SignOfAgeObtainedFrom>+</SignOfAgeObtainedFrom>
+                                                <AgeObtainedFrom>04</AgeObtainedFrom>
+                                                <SignOfAgeObtainedTo>+</SignOfAgeObtainedTo>
+                                                <AgeObtainedTo>05</AgeObtainedTo>
+                                                <IssuanceYearStatus>  </IssuanceYearStatus>
+                                        </YearOfIssuanceSegment>
+                                </AddOnSegment>
+                                <AddOnSegment>
+                                        <SegmentLength>017</SegmentLength>
+                                        <ServiceCode>00032</ServiceCode>
+                                        <ServiceStatus>01</ServiceStatus>
+                                        <SearchStatus>   </SearchStatus>
+                                        <ScoringSegment>
+                                                <SegmentLength>034</SegmentLength>
+                                                <ServiceCode>00032</ServiceCode>
+                                                <Sign>+</Sign>
+                                                <Score>150  </Score>
+                                                <ScoringIndicatorFlag> </ScoringIndicatorFlag>
+                                                <ScoreDerogAndInquiryAlertFlag>I</ScoreDerogAndInquiryAlertFlag>
+                                                <FirstFactor>008</FirstFactor>
+                                                <SecondFactor>029</SecondFactor>
+                                                <ThirdFactor>014</ThirdFactor>
+                                                <FourthFactor>019</FourthFactor>
+                                                <ScoreCardIndicator>  </ScoreCardIndicator>
+                                        </ScoringSegment>
+                                </AddOnSegment>
+                                <AddOnSegment>
+                                        <SegmentLength>017</SegmentLength>
+                                        <ServiceCode>00002</ServiceCode>
+                                        <ServiceStatus>01</ServiceStatus>
+                                        <SearchStatus>   </SearchStatus>
+                                        <ScoringSegment>
+                                                <SegmentLength>034</SegmentLength>
+                                                <ServiceCode>00002</ServiceCode>
+                                                <Sign>+</Sign>
+                                                <Score>     </Score>
+                                                <ScoringIndicatorFlag>3</ScoringIndicatorFlag>
+                                                <ScoreDerogAndInquiryAlertFlag> </ScoreDerogAndInquiryAlertFlag>
+                                                <FirstFactor>   </FirstFactor>
+                                                <SecondFactor>   </SecondFactor>
+                                                <ThirdFactor>   </ThirdFactor>
+                                                <FourthFactor>   </FourthFactor>
+                                                <ScoreCardIndicator>  </ScoreCardIndicator>
+                                        </ScoringSegment>
+                                </AddOnSegment>
+                                <AddOnSegment>
+                                        <SegmentLength>017</SegmentLength>
+                                        <ServiceCode>06800</ServiceCode>
+                                        <ServiceStatus>04</ServiceStatus>
+                                        <SearchStatus>O01</SearchStatus>
+                                </AddOnSegment>
+                                <AddOnSegment>
+                                        <SegmentLength>017</SegmentLength>
+                                        <ServiceCode>07640</ServiceCode>
+                                        <ServiceStatus>03</ServiceStatus>
+                                        <SearchStatus>   </SearchStatus>
+                                </AddOnSegment>
+                        </SubjectHeaderSegment>
+                </ServiceHeaderSegment>
+                <TransactionEndingSegment>
+                        <SegmentLength>010</SegmentLength>
+                        <TotalNumberOfSegments>028</TotalNumberOfSegments>
+                </TransactionEndingSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                           TRANSUNION CREDIT REPORT                          </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> &amp;lt;FOR&amp;gt;          &amp;lt;SUB NAME&amp;gt;          &amp;lt;MKT SUB&amp;gt;  &amp;lt;INFILE&amp;gt;   &amp;lt;DATE&amp;gt;      &amp;lt;TIME&amp;gt; </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> (I) Z TR1000669 FAIR ISAAC          45 WI     12/13      09/11/15    01:20CT</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> &amp;lt;SUBJECT&amp;gt;                                          &amp;lt;SSN&amp;gt;        &amp;lt;BIRTH DATE&amp;gt;</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> CONSUMER, JONATHAN  Q.                             666-60-3388  87-E        </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> &amp;lt;CURRENT ADDRESS&amp;gt;                                               &amp;lt;DATE RPTD&amp;gt; </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> 10655 BIRCH, #123AB. BURBANK CA. 91502                          12/13       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                          &amp;lt;POSITION&amp;gt;                         </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> &amp;lt;CURRENT EMPLOYER AND ADDRESS&amp;gt;                     &amp;lt;VERF&amp;gt; &amp;lt;RPTD&amp;gt;&amp;lt;HIRE&amp;gt;      </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> TEST                                     TEST                               </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                     8/15V  8/15  9/10       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> &amp;lt;FORMER EMPLOYER AND ADDRESS&amp;gt;                                               </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> QWEE                                     NJKJL                              </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                     8/15V  8/15  9/05       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                     ***WARNING  INTERNAL USE ONLY - NOT FOR RESALE***       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> S P E C I A L   M E S S A G E S                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ***ID MISMATCH ALERT: INPUT SUBJECT SSN DOES NOT MATCH FILE SSN***          </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ****SSN YEAR OF ISSUANCE :FILE SSN ISSUED: 1992; STATE: NM; (EST. AGE       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                           OBTAINED: 04 TO 05)***                            </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ***OFAC NAME SCREEN ALERT - CLEAR***                                        </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> M O D E L   P R O F I L E          * * * A L E R T * * *                    </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ***NEW DELPHI ALERT: SCORE +150  : 008, 029, 014, 019 *** IN ADDITION TO THE</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ***FACTORS LISTED ABOVE, THE NUMBER OF INQUIRIES ON THE CONSUMER&amp;apos;S CREDIT   </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ***FILE HAS ADVERSELY AFFECTED THE CREDIT SCORE.                            </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ***FICO CLASSIC 95: NOT SCORED: INSUFFICIENT CREDIT ***                     </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> C R E D I T   S U M M A R Y      * * *    T O T A L  F I L E  H I S T O R Y </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> PR=0  COL=0  NEG=0  HSTNEG=0     TRD=3  RVL=3  INST=0  MTG=0  OPN=0  INQ=2  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>               HIGH CRED  CRED LIM  BALANCE  PAST DUE  MNTHLY PAY AVAILABLE  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> REVOLVING:    $4001      $5000     $        $0                   100%       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> TOTALS:       $4001      $5000     $        $0        $                     </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> T R A D E S                                                                 </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> SUBNAME      SUBCODE   OPENED  HIGHCRED TERMS     MAXDELQ  PAYPAT  1-12 MOP </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ACCOUNT#               VERFIED CREDLIM  PASTDUE   AMT-MOP  PAYPAT 13-24     </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ECOA COLLATRL/LOANTYPE CLSD/PD BALANCE  REMARKS                MO 30/60/90  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> NBGL-SAKS    C 2163001  8/08   $0                          1            R01 </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> 8612                   11/14A           $0                                  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> I    CHARGE ACCOUNT    11/13C  $0       CLOSED                 1   0/ 0/ 0  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> NBGL-SAKS    C 2163001  5/09   $0                          1            R01 </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> 9441                   11/14A           $0                                  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> I    CHARGE ACCOUNT    11/13C  $0       CLOSED                 1   0/ 0/ 0  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> BRONCO MOTOR A 1LS3001 12/10   $4001                       X111X1       R01 </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> 12345                   6/14A  $5000    $0                                  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> P    CREDIT CARD                                               6   0/ 0/ 0  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> I N Q U I R I E S                                                           </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> DATE     SUBCODE         SUBNAME        TYPE    AMOUNT                      </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>  9/11/15 ZTR1000669(CHI) FAIR ISAAC                                         </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>  8/08/15 BLO2382255(IND) HSBC                                               </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>  *** INQUIRY ANALYSIS ***                                                   </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> INQUIRY ANALYSIS CURRENTLY NOT AVAILABLE ON THIS FILE                       </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> ----------------------------------------------------------------------------</PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> C R E D I T  R E P O R T  S E R V I C E D  B Y :                            </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> TRANSUNION TEST FACILITY                                      800-888-4213  </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> 555 WEST ADAMS,CHICAGO, IL. 60661                                           </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine> Consumer disclosures can be obtained online through TransUnion at:          </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>      http://www.transunion.com                                              </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                                                                             </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                        <PrintImageLine>                             END OF TRANSUNION REPORT                        </PrintImageLine>
+                </PrintImageSegment>
+                <PrintImageSegment>
+                </PrintImageSegment>
+        </TransUnionResponse>
+</Readable></Output></Outputs></ns2:Response></ns2:FDOServiceResponse>

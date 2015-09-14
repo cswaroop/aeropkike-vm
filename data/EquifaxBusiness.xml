@@ -1,0 +1,378 @@
+<ns2:FDOServiceResponse xmlns:ns2="http://fdo.dam.om.fico.com/fdoserviceresponse"><ns2:Response WorkItemRef="1"><Outputs ActivityId="97a95f19-0d1a-4b22-b788-2c7e83558562" ActivityRef="1"><Output name="ReadableResponse">
+
+<!-- Revision: 63 1.7.1.1 EPF, xml4c2Docs, xml4c2_2_x  -->
+<EfxTransmit customerReference="" efxInternalTranId="0168439506" serviceCode="SB1" version="5.0">
+    <ProductCode name="COMM" code="0001">Commercial - Hit</ProductCode>
+    <ProductCode name="SBMA" code="0001">Small Business Modeling Attributes</ProductCode>
+    <CustomerSecurityInfo>
+        <ProductCode name="SBMA" code="0001">Small Business Modeling Attributes</ProductCode>
+    </CustomerSecurityInfo>
+    <StandardRequest>
+        <Folder>
+            <FolderActivity>
+                <FileActivityDate>09/11/2015</FileActivityDate>
+                <FileCreationDate>09/11/2015</FileCreationDate>
+            </FolderActivity>
+            <IdTrait>
+                <AddressTrait>
+                    <TraitActivity>
+                        <InformationSource>
+                            <IndustryCode>Industry Code Masked</IndustryCode>
+                        </InformationSource>
+                        <ReportedDate>09/11/2015</ReportedDate>
+                        <DateCreated>09/11/2015</DateCreated>
+                        <PrimaryIndicator>PRIMARY</PrimaryIndicator>
+                    </TraitActivity>
+                    <AddressLine1>1401 W Peachtree St NW</AddressLine1>
+                    <City>Atlanta</City>
+                    <State>PA</State>
+                    <PostalCode>30309</PostalCode>
+                </AddressTrait>
+                <CompanyNameTrait>
+                    <TraitActivity>
+                        <InformationSource>
+                            <IndustryCode>Industry Code Masked</IndustryCode>
+                        </InformationSource>
+                        <ReportedDate>09/11/2015</ReportedDate>
+                        <DateCreated>09/11/2015</DateCreated>
+                        <PrimaryIndicator>PRIMARY</PrimaryIndicator>
+                    </TraitActivity>
+                    <BusinessName>Magnum Standard</BusinessName>
+                </CompanyNameTrait>
+            </IdTrait>
+        </Folder>
+    </StandardRequest>
+    <CommercialCreditReport>
+        <Header>
+            <CustomerNumber>999XZ00370</CustomerNumber>
+            <DateOfRequest>09/11/2015</DateOfRequest>
+        </Header>
+        <Folder>
+            <EfxId>500004301</EfxId>
+            <FolderActivity></FolderActivity>
+            <CommentsTrait>
+                <ReportedDate>01/29/2013</ReportedDate>
+                <Statement><![CDATA[Principal or Guarantor reported as a victim of fraud. Please contact ATLANTA JOE at (770)678-7958 before extending credit.]]></Statement>
+                <CommentSource>ATLANTA JOE</CommentSource>
+            </CommentsTrait>
+            <CommentsTrait>
+                <ReportedDate>12/04/2013</ReportedDate>
+                <Statement><![CDATA[Principal/Guarantor suspect possible fraud. Please contact Principal before extending credit.]]></Statement>
+                <CommentSource>OWNER</CommentSource>
+            </CommentsTrait>
+            <Alert>
+                <AlertCode>500</AlertCode>
+                <AlertDescription>Insufficient Data Available to Calculate Credit Utilization</AlertDescription>
+            </Alert>
+            <Alert>
+                <AlertCode>501</AlertCode>
+                <AlertDescription>Insufficient Data Available to Calculate Days Beyond Terms - Account</AlertDescription>
+            </Alert>
+            <Alert>
+                <AlertCode>531</AlertCode>
+                <AlertDescription>Insufficient Data Available to Calculate Payment Index</AlertDescription>
+            </Alert>
+            <Alert>
+                <AlertCode>1</AlertCode>
+                <AlertDescription><![CDATA[The base Zip code (first five digits) of the inquiry and file do not match. Address verification suggested]]></AlertDescription>
+            </Alert>
+            <Alert>
+                <AlertCode>810</AlertCode>
+                <AlertDescription><![CDATA[Company Address lines are not equal. Verify company address]]></AlertDescription>
+            </Alert>
+            <Alert>
+                <AlertCode>811</AlertCode>
+                <AlertDescription><![CDATA[Company City, State, ZIP are not equal. Verify company address]]></AlertDescription>
+            </Alert>
+            <Alert>
+                <AlertCode>815</AlertCode>
+                <AlertDescription>City, State, and Zip Did Not Match the USPS Table</AlertDescription>
+            </Alert>
+            <DecisionTools>
+                <CommercialAttributes version="SBMA 1.0">
+                    <DataAttributes referenceNumber="010101">1</DataAttributes>
+                    <DataAttributes referenceNumber="010102">0</DataAttributes>
+                    <DataAttributes referenceNumber="010103">0</DataAttributes>
+                    <DataAttributes referenceNumber="010201">0</DataAttributes>
+                    <DataAttributes referenceNumber="010202">99</DataAttributes>
+                    <DataAttributes referenceNumber="010203">99</DataAttributes>
+                    <DataAttributes referenceNumber="010301">0</DataAttributes>
+                    <DataAttributes referenceNumber="010302">99</DataAttributes>
+                    <DataAttributes referenceNumber="010303">99</DataAttributes>
+                    <DataAttributes referenceNumber="010401">0</DataAttributes>
+                    <DataAttributes referenceNumber="010402">99</DataAttributes>
+                    <DataAttributes referenceNumber="010403">99</DataAttributes>
+                    <DataAttributes referenceNumber="010501">0</DataAttributes>
+                    <DataAttributes referenceNumber="010502">99</DataAttributes>
+                    <DataAttributes referenceNumber="010503">99</DataAttributes>
+                    <DataAttributes referenceNumber="010601">0</DataAttributes>
+                    <DataAttributes referenceNumber="010602">99</DataAttributes>
+                    <DataAttributes referenceNumber="010603">99</DataAttributes>
+                    <DataAttributes referenceNumber="010701">0</DataAttributes>
+                    <DataAttributes referenceNumber="010702">99</DataAttributes>
+                    <DataAttributes referenceNumber="010703">99</DataAttributes>
+                    <DataAttributes referenceNumber="010801">0</DataAttributes>
+                    <DataAttributes referenceNumber="010802">99</DataAttributes>
+                    <DataAttributes referenceNumber="010803">99</DataAttributes>
+                    <DataAttributes referenceNumber="010901">1</DataAttributes>
+                    <DataAttributes referenceNumber="010902">0</DataAttributes>
+                    <DataAttributes referenceNumber="010903">0</DataAttributes>
+                    <DataAttributes referenceNumber="011001">1</DataAttributes>
+                    <DataAttributes referenceNumber="011002">0</DataAttributes>
+                    <DataAttributes referenceNumber="011003">0</DataAttributes>
+                    <DataAttributes referenceNumber="011101">0</DataAttributes>
+                    <DataAttributes referenceNumber="011102">99</DataAttributes>
+                    <DataAttributes referenceNumber="011103">99</DataAttributes>
+                    <DataAttributes referenceNumber="011201">0</DataAttributes>
+                    <DataAttributes referenceNumber="011202">99</DataAttributes>
+                    <DataAttributes referenceNumber="011203">99</DataAttributes>
+                    <DataAttributes referenceNumber="020101">999</DataAttributes>
+                    <DataAttributes referenceNumber="020102">999</DataAttributes>
+                    <DataAttributes referenceNumber="020201">999</DataAttributes>
+                    <DataAttributes referenceNumber="020202">999</DataAttributes>
+                    <DataAttributes referenceNumber="030101">0</DataAttributes>
+                    <DataAttributes referenceNumber="030201">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030301">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030401">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030501">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030601">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030701">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030801">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="030901">0</DataAttributes>
+                    <DataAttributes referenceNumber="031001">0</DataAttributes>
+                    <DataAttributes referenceNumber="031101">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="031201">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="031301">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="031401">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="041301">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="041401">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="051301"><![CDATA[9.9999]]></DataAttributes>
+                    <DataAttributes referenceNumber="051401"><![CDATA[9.9999]]></DataAttributes>
+                    <DataAttributes referenceNumber="060101">0</DataAttributes>
+                    <DataAttributes referenceNumber="060102">0</DataAttributes>
+                    <DataAttributes referenceNumber="060103">0</DataAttributes>
+                    <DataAttributes referenceNumber="060104">0</DataAttributes>
+                    <DataAttributes referenceNumber="060105">0</DataAttributes>
+                    <DataAttributes referenceNumber="060106">0</DataAttributes>
+                    <DataAttributes referenceNumber="060107">0</DataAttributes>
+                    <DataAttributes referenceNumber="060201">99</DataAttributes>
+                    <DataAttributes referenceNumber="060202">99</DataAttributes>
+                    <DataAttributes referenceNumber="060203">99</DataAttributes>
+                    <DataAttributes referenceNumber="060204">99</DataAttributes>
+                    <DataAttributes referenceNumber="060205">99</DataAttributes>
+                    <DataAttributes referenceNumber="060206">99</DataAttributes>
+                    <DataAttributes referenceNumber="060207">99</DataAttributes>
+                    <DataAttributes referenceNumber="060901">0</DataAttributes>
+                    <DataAttributes referenceNumber="060902">0</DataAttributes>
+                    <DataAttributes referenceNumber="060903">0</DataAttributes>
+                    <DataAttributes referenceNumber="060904">0</DataAttributes>
+                    <DataAttributes referenceNumber="060905">0</DataAttributes>
+                    <DataAttributes referenceNumber="060906">0</DataAttributes>
+                    <DataAttributes referenceNumber="060907">0</DataAttributes>
+                    <DataAttributes referenceNumber="061001">0</DataAttributes>
+                    <DataAttributes referenceNumber="061002">0</DataAttributes>
+                    <DataAttributes referenceNumber="061003">0</DataAttributes>
+                    <DataAttributes referenceNumber="061004">0</DataAttributes>
+                    <DataAttributes referenceNumber="061005">0</DataAttributes>
+                    <DataAttributes referenceNumber="061006">0</DataAttributes>
+                    <DataAttributes referenceNumber="061007">0</DataAttributes>
+                    <DataAttributes referenceNumber="061101">99</DataAttributes>
+                    <DataAttributes referenceNumber="061102">99</DataAttributes>
+                    <DataAttributes referenceNumber="061103">99</DataAttributes>
+                    <DataAttributes referenceNumber="061104">99</DataAttributes>
+                    <DataAttributes referenceNumber="061105">99</DataAttributes>
+                    <DataAttributes referenceNumber="061106">99</DataAttributes>
+                    <DataAttributes referenceNumber="061107">99</DataAttributes>
+                    <DataAttributes referenceNumber="061201">99</DataAttributes>
+                    <DataAttributes referenceNumber="061202">99</DataAttributes>
+                    <DataAttributes referenceNumber="061203">99</DataAttributes>
+                    <DataAttributes referenceNumber="061204">99</DataAttributes>
+                    <DataAttributes referenceNumber="061205">99</DataAttributes>
+                    <DataAttributes referenceNumber="061206">99</DataAttributes>
+                    <DataAttributes referenceNumber="061207">99</DataAttributes>
+                    <DataAttributes referenceNumber="061301">99</DataAttributes>
+                    <DataAttributes referenceNumber="061302">99</DataAttributes>
+                    <DataAttributes referenceNumber="061303">99</DataAttributes>
+                    <DataAttributes referenceNumber="061304">99</DataAttributes>
+                    <DataAttributes referenceNumber="061305">99</DataAttributes>
+                    <DataAttributes referenceNumber="061306">99</DataAttributes>
+                    <DataAttributes referenceNumber="061307">99</DataAttributes>
+                    <DataAttributes referenceNumber="061401">99</DataAttributes>
+                    <DataAttributes referenceNumber="061402">99</DataAttributes>
+                    <DataAttributes referenceNumber="061403">99</DataAttributes>
+                    <DataAttributes referenceNumber="061404">99</DataAttributes>
+                    <DataAttributes referenceNumber="061405">99</DataAttributes>
+                    <DataAttributes referenceNumber="061406">99</DataAttributes>
+                    <DataAttributes referenceNumber="061407">99</DataAttributes>
+                    <DataAttributes referenceNumber="070201">99</DataAttributes>
+                    <DataAttributes referenceNumber="070202">99</DataAttributes>
+                    <DataAttributes referenceNumber="070203">99</DataAttributes>
+                    <DataAttributes referenceNumber="070204">99</DataAttributes>
+                    <DataAttributes referenceNumber="080101">1</DataAttributes>
+                    <DataAttributes referenceNumber="080102">1</DataAttributes>
+                    <DataAttributes referenceNumber="080103">1</DataAttributes>
+                    <DataAttributes referenceNumber="080104">1</DataAttributes>
+                    <DataAttributes referenceNumber="080105">1</DataAttributes>
+                    <DataAttributes referenceNumber="080106">1</DataAttributes>
+                    <DataAttributes referenceNumber="080107">0</DataAttributes>
+                    <DataAttributes referenceNumber="080201">99</DataAttributes>
+                    <DataAttributes referenceNumber="080202">99</DataAttributes>
+                    <DataAttributes referenceNumber="080203">99</DataAttributes>
+                    <DataAttributes referenceNumber="080204">99</DataAttributes>
+                    <DataAttributes referenceNumber="080205">99</DataAttributes>
+                    <DataAttributes referenceNumber="080206">99</DataAttributes>
+                    <DataAttributes referenceNumber="080207">99</DataAttributes>
+                    <DataAttributes referenceNumber="081301">99</DataAttributes>
+                    <DataAttributes referenceNumber="081302">99</DataAttributes>
+                    <DataAttributes referenceNumber="081303">99</DataAttributes>
+                    <DataAttributes referenceNumber="081304">99</DataAttributes>
+                    <DataAttributes referenceNumber="081305">99</DataAttributes>
+                    <DataAttributes referenceNumber="081306">99</DataAttributes>
+                    <DataAttributes referenceNumber="081307">99</DataAttributes>
+                    <DataAttributes referenceNumber="081401">99</DataAttributes>
+                    <DataAttributes referenceNumber="081402">99</DataAttributes>
+                    <DataAttributes referenceNumber="081403">99</DataAttributes>
+                    <DataAttributes referenceNumber="081404">99</DataAttributes>
+                    <DataAttributes referenceNumber="081405">99</DataAttributes>
+                    <DataAttributes referenceNumber="081406">99</DataAttributes>
+                    <DataAttributes referenceNumber="081407">99</DataAttributes>
+                    <DataAttributes referenceNumber="090101">0</DataAttributes>
+                    <DataAttributes referenceNumber="090102">0</DataAttributes>
+                    <DataAttributes referenceNumber="090103">0</DataAttributes>
+                    <DataAttributes referenceNumber="090104">0</DataAttributes>
+                    <DataAttributes referenceNumber="090105">0</DataAttributes>
+                    <DataAttributes referenceNumber="090201">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090202">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090203">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090204">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090205">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090301">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090401">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090501">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090601">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090701">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090801">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="090901">0</DataAttributes>
+                    <DataAttributes referenceNumber="090902">0</DataAttributes>
+                    <DataAttributes referenceNumber="090903">0</DataAttributes>
+                    <DataAttributes referenceNumber="090904">0</DataAttributes>
+                    <DataAttributes referenceNumber="090905">0</DataAttributes>
+                    <DataAttributes referenceNumber="091001">0</DataAttributes>
+                    <DataAttributes referenceNumber="091101">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="091201">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="100101">99</DataAttributes>
+                    <DataAttributes referenceNumber="100102">0</DataAttributes>
+                    <DataAttributes referenceNumber="100201">99</DataAttributes>
+                    <DataAttributes referenceNumber="100202">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="100901">99</DataAttributes>
+                    <DataAttributes referenceNumber="100902">0</DataAttributes>
+                    <DataAttributes referenceNumber="110101"><![CDATA[9.9999]]></DataAttributes>
+                    <DataAttributes referenceNumber="110201"><![CDATA[9.9999]]></DataAttributes>
+                    <DataAttributes referenceNumber="110901"><![CDATA[9.9999]]></DataAttributes>
+                    <DataAttributes referenceNumber="120101">125</DataAttributes>
+                    <DataAttributes referenceNumber="130101">9</DataAttributes>
+                    <DataAttributes referenceNumber="130102">99</DataAttributes>
+                    <DataAttributes referenceNumber="130103">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="130104">99</DataAttributes>
+                    <DataAttributes referenceNumber="130105">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="130106">999</DataAttributes>
+                    <DataAttributes referenceNumber="130201">9</DataAttributes>
+                    <DataAttributes referenceNumber="130202">99</DataAttributes>
+                    <DataAttributes referenceNumber="130203">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="130204">99</DataAttributes>
+                    <DataAttributes referenceNumber="130205">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="130206">999</DataAttributes>
+                    <DataAttributes referenceNumber="130401">9</DataAttributes>
+                    <DataAttributes referenceNumber="130301">9</DataAttributes>
+                    <DataAttributes referenceNumber="130302">99</DataAttributes>
+                    <DataAttributes referenceNumber="130304">99</DataAttributes>
+                    <DataAttributes referenceNumber="130305">999999999</DataAttributes>
+                    <DataAttributes referenceNumber="130306">999</DataAttributes>
+                    <DataAttributes referenceNumber="130406">999</DataAttributes>
+                    <DataAttributes referenceNumber="120201">999</DataAttributes>
+                    <DataAttributes referenceNumber="140101">9999</DataAttributes>
+                    <DataAttributes referenceNumber="140102">999999</DataAttributes>
+                    <DataAttributes referenceNumber="140103">99</DataAttributes>
+                    <DataAttributes referenceNumber="140104">99</DataAttributes>
+                    <DataAttributes referenceNumber="140105">99</DataAttributes>
+                    <DataAttributes referenceNumber="140106">9999</DataAttributes>
+                    <DataAttributes referenceNumber="140107">99</DataAttributes>
+                    <DataAttributes referenceNumber="140108">99</DataAttributes>
+                </CommercialAttributes>
+            </DecisionTools>
+            <IdTrait>
+                <AddressTrait>
+                    <TraitActivity>
+                        <InformationSource></InformationSource>
+                        <ReportedDate>04/16/2005</ReportedDate>
+                        <DateCreated>02/24/2005</DateCreated>
+                        <PrimaryIndicator>PRIMARY</PrimaryIndicator>
+                    </TraitActivity>
+                    <AddressLine1>1401 W PEACHTREE ST NW</AddressLine1>
+                    <City>AUGUSTA</City>
+                    <State>GA</State>
+                    <Country>USA</Country>
+                    <PostalCode>30999-0001</PostalCode>
+                    <StandardizationStatus>Not Standardized</StandardizationStatus>
+                    <TradeLinkInfo>
+                        <AccountReference referenceType="reference">2169</AccountReference>
+                        <ReportedDate>04/16/2005</ReportedDate>
+                    </TradeLinkInfo>
+                </AddressTrait>
+                <CompanyNameTrait>
+                    <TraitActivity>
+                        <InformationSource></InformationSource>
+                        <ReportedDate>04/16/2005</ReportedDate>
+                        <DateCreated>02/24/2005</DateCreated>
+                        <PrimaryIndicator>PRIMARY</PrimaryIndicator>
+                    </TraitActivity>
+                    <BusinessName>MAGNUM STANDARD</BusinessName>
+                    <TradeLinkInfo>
+                        <AccountReference referenceType="reference">2169</AccountReference>
+                        <ReportedDate>04/16/2005</ReportedDate>
+                    </TradeLinkInfo>
+                </CompanyNameTrait>
+            </IdTrait>
+            <Site>
+                <EfxId>500004301</EfxId>
+                <FolderActivity>
+                    <InquiredIndicator>INQUIRED</InquiredIndicator>
+                </FolderActivity>
+                <IdTrait>
+                    <AddressTrait>
+                        <TraitActivity>
+                            <InformationSource></InformationSource>
+                            <ReportedDate>04/16/2005</ReportedDate>
+                            <DateCreated>02/24/2005</DateCreated>
+                            <PrimaryIndicator>PRIMARY</PrimaryIndicator>
+                        </TraitActivity>
+                        <AddressLine1>1401 W PEACHTREE ST NW</AddressLine1>
+                        <City>AUGUSTA</City>
+                        <State>GA</State>
+                        <Country>USA</Country>
+                        <PostalCode>30999-0001</PostalCode>
+                        <StandardizationStatus>Not Standardized</StandardizationStatus>
+                        <TradeLinkInfo>
+                            <AccountReference referenceType="reference">2169</AccountReference>
+                            <ReportedDate>04/16/2005</ReportedDate>
+                        </TradeLinkInfo>
+                    </AddressTrait>
+                    <CompanyNameTrait>
+                        <TraitActivity>
+                            <InformationSource></InformationSource>
+                            <ReportedDate>04/16/2005</ReportedDate>
+                            <DateCreated>02/24/2005</DateCreated>
+                            <PrimaryIndicator>PRIMARY</PrimaryIndicator>
+                        </TraitActivity>
+                        <BusinessName>MAGNUM STANDARD</BusinessName>
+                        <TradeLinkInfo>
+                            <AccountReference referenceType="reference">2169</AccountReference>
+                            <ReportedDate>04/16/2005</ReportedDate>
+                        </TradeLinkInfo>
+                    </CompanyNameTrait>
+                </IdTrait>
+            </Site>
+        </Folder>
+    </CommercialCreditReport>
+</EfxTransmit>
+</Output></Outputs></ns2:Response></ns2:FDOServiceResponse>

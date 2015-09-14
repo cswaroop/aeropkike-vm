@@ -1,0 +1,60 @@
+
+// Insert Data
+
+INSERT INTO users.profiles2 (key,FirstName,LastName) VALUES ('FirstName1LastName2','FirstName1','LastName1')
+	
+//delete
+client.delete(policy, key);
+
+
+// creating a secondary index on Age bin
+CREATE INDEX age_idx ON users.profiles2 (Age) NUMERIC
+DROP age_idx users numindex
+
+// Range Query on Age bin
+
+select * from users.profiles2 where Age between 8 and 9
+
+// Queres with Predicates
+
+select * from users.profiles2 where FirstName = 'FirstName8'
+select * from users.profiles2 where LastName = 'LastName9'
+select * from users.prifiles2 where Ssn = 'Ssn10'
+ 
+// Show indexes
+
+
+show namespaces
+show sets
+show bins
+show indexes
+
+
+// Data Loading
+
+cd hackathon
+python put.py -n users -s profiles2 xyz
+
+
+
+// Performance Numbers
+
+1. Range Query
+aql> select * from users.profiles2 where Age between 8 and 9
++--------------+--------+-------------+-----+---------+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| FirstName    | Dob    | LastName    | Age | ZipCode | Ssn    | BureauData                                                                                                                                                                                                                                                     |
++--------------+--------+-------------+-----+---------+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| "FirstName8" | "Dob8" | "LastName8" | 8   | "Zip8"  | "Ssn8" | "<Bureau><FDOServiceResponse>  <Response WorkItemRef="1">              <Outputs ActivityId="0ae1a825-9faf-4438-9859-54a84d9e8cdf" ActivityRef="1">                     <Output name="BureauResponse">FULL 999ZZ531351221I02  C 09112015 00000000000000000000000000000000000000000000000000 |
+| "FirstName9" | "Dob9" | "LastName9" | 9   | "Zip9"  | "Ssn9" | "<Bureau><FDOServiceResponse>  <Response WorkItemRef="1">              <Outputs ActivityId="0ae1a825-9faf-4438-9859-54a84d9e8cdf" ActivityRef="1">                     <Output name="BureauResponse">FULL 999ZZ531351221I02  C 09112015 00000000000000000000000000000000000000000000000000 |
++--------------+--------+-------------+-----+---------+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2 rows in set (0.057 secs)
+
+aql> select * from users.profiles2 where Age between 10 and 10000
+3780 rows in set (1.025 secs)
+
+
+2. Insert speed
+
+50,000 records were inserted  in 3 min 
+
+

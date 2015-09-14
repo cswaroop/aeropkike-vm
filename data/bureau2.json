@@ -1,0 +1,93 @@
+{
+  "_id": "38da2c54afea204c9ad991019599e384",
+  "_rev": "1-a57511d07f24c4101de8f7bd8f615d30",
+  "docType": "EquifaxConsumer",
+  "ns2:FDOServiceResponse": {
+    "xmlns:ns2": "http://fdo.dam.om.fico.com/fdoserviceresponse",
+    "ns2:Response": {
+      "WorkItemRef": 1,
+      "Outputs": {
+        "ActivityId": "0ae1a825-9faf-4438-9859-54a84d9e8cdf",
+        "ActivityRef": 1,
+        "Output": {
+          "name": "ReadableResponse",
+          "Readable": {
+            "CreditReport": {
+              "HeaderSegment": {
+                "CustomerReferenceNumber": "                    ",
+                "EquifaxCustomerNumber": "999ZZ53135",
+                "ConsumerReferralCode": 122,
+                "MultipleReportIndicator": 1,
+                "ECOAInquiryType": "I",
+                "OutputFormatCode": "02",
+                "MonthsToCountInquiries": " ",
+                "Filler1": " ",
+                "HitNoHitDesignatorCode": "C",
+                "FileSinceDate": "        ",
+                "DateOfLastActivity": "        ",
+                "DateOfThisReport": "09112015",
+                "SubjectLastName": "                         ",
+                "SubjectFirstName": "               ",
+                "SubjectMiddleName": "               ",
+                "SubjectSuffix": "  ",
+                "SubjectSSN": "         ",
+                "DateOfBirthOrAge": "        ",
+                "Filler2": "  ",
+                "FirstNameMatchFlag": " ",
+                "MiddleNameMatch": " ",
+                "LastNameMatchFlag": " ",
+                "SuffixMatchFlag": " ",
+                "Filler3": "   ",
+                "LinkIndicator": " ",
+                "DoNotCombineIndicator": " ",
+                "NumAdditionalMultiples": 0,
+                "SegmentCounters": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100",
+                "AddressDiscrepancyIndicator": " ",
+                "SSNAffirmAlertFlagOrFiller": " ",
+                "FillerOr2ndSAFESCANCode": " ",
+                "FillerOr3rdSAFESCANCode": " ",
+                "FillerOr4thSAFESCANCode": " ",
+                "FillerOrIdentityScanIndicator": " ",
+                "Filler4": "     ",
+                "Filler5": "             ",
+                "FraudVictimAlertIndicatorCode": " ",
+                "FillerOr1stSAFESCANCode": "A"
+              },
+              "OFACAlertSegment": {
+                "RevisedLegalVerbiageIndicator": 2,
+                "Filler1": " ",
+                "MemberFirmCode": "OFAC",
+                "CustomerNumberAndSecurityDigits": "0000000000000000",
+                "CDCTransactionProcessingDate": 20150911,
+                "CDCTransactionProcessingTime": "022340",
+                "TransactionType": "O",
+                "CDCResponseCode": "N",
+                "CDCProblemCode": "  ",
+                "Filler2": " ",
+                "MatchCodes": "      ",
+                "ProblemReportDate": "        ",
+                "IssueSource": "                    ",
+                "IssueIDOrReference": "                    ",
+                "Comment": "                                                                                                    ",
+                "OFACFirstName": "             ",
+                "OFACMiddleInitial": " ",
+                "OFACLastName": "                   ",
+                "OFACAddress": "                              ",
+                "OFACCity": "               ",
+                "OFACState": "  ",
+                "OFACZIPCode": "         ",
+                "OFACCountryCode": "   ",
+                "LegalVerbiage": "NO MATCH FOUND IN CDC&apos;S OFAC DATABASE.                                                                                                                                                                                                                              ",
+                "Filler3": " "
+              },
+              "ReportTerminator": {
+                "Terminator": "&amp;"
+              },
+              "PrintImageSegment": "\r                "
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+<ns2:FDOServiceResponse xmlns:ns2="http://fdo.dam.om.fico.com/fdoserviceresponse"><ns2:Response WorkItemRef="1"><Outputs ActivityId="531e3214-dae8-4afc-ba1a-3c628d2308bb" ActivityRef="1"><Output name="ReadableResponse">
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetReportResponse xmlns="https://secure.paynetonline.com/direct/">
+            <GetReportResult>
+                <Xml>
+                    <report xmlns="">
+                        <report_options>
+                            <report_option provided="1">Credit History PLUS</report_option>
+                            <report_option provided="1">MasterScore V2</report_option>
+                        </report_options>
+                        <report_data>
+                            <generation_date_time>9/11/2015 1:17:15 AM</generation_date_time>
+                            <paynet_id>62029729</paynet_id>
+                            <report_id>108836234</report_id>
+                            <generated_for_member><![CDATA[Fair Isaac]]></generated_for_member>
+                            <name_address>
+                                <primary_name><![CDATA[CHRISTOPHER W WATTS]]></primary_name>
+                                <other_names/>
+                                <address_1><![CDATA[1646 PETER LN]]></address_1>
+                                <address_2><![CDATA[]]></address_2>
+                                <city><![CDATA[ROMEOVILLE]]></city>
+                                <state_code>IL</state_code>
+                                <postal_code>60446-5163</postal_code>
+                                <country_code>USA</country_code>
+                                <telephone>8156933311</telephone>
+                                <fax/>
+                                <tax_id>*****8161</tax_id>
+                            </name_address>
+                            <inquiries total="0">
+                                <inquiry month="2015-09">0</inquiry>
+                                <inquiry month="2015-08">0</inquiry>
+                                <inquiry month="2015-07">0</inquiry>
+                                <inquiry month="2015-06">0</inquiry>
+                                <inquiry month="2015-05">0</inquiry>
+                                <inquiry month="2015-04">0</inquiry>
+                            </inquiries>
+                            <master_score>603</master_score>
+                            <master_score_percentile>4</master_score_percentile>
+                            <master_score_key_factor_1>-Higher Risk Industry/State/Local Econom</master_score_key_factor_1>
+                            <master_score_key_factor_2>-History of Serious Delinquency</master_score_key_factor_2>
+                            <master_score_key_factor_3>-Recent / Frequent Delinquency</master_score_key_factor_3>
+                            <primary_equipment_type_code>TRCK</primary_equipment_type_code>
+                            <primary_equipment_type_desc>Truck</primary_equipment_type_desc>
+                            <oldest_contract_start_date>2007-07-13</oldest_contract_start_date>
+                            <open_contracts_cnt>1</open_contracts_cnt>
+                            <closed_contracts_cnt>0</closed_contracts_cnt>
+                            <orig_receivable_amt>83658.42</orig_receivable_amt>
+                            <high_credit_amt>83658.42</high_credit_amt>
+                            <avg_high_credit_per_lender_amt>83658</avg_high_credit_per_lender_amt>
+                            <avg_orig_term_months>54</avg_orig_term_months>
+                            <cur_bal_amt>45667.66</cur_bal_amt>
+                            <cur_bal_amt_pct_of_high_credit>55</cur_bal_amt_pct_of_high_credit>
+                            <cur_bal_amt_pct_of_orig_receivable>55</cur_bal_amt_pct_of_orig_receivable>
+                            <monthly_payment_amt>1549.23</monthly_payment_amt>
+                            <annualized_scheduled_pmts>18590.76</annualized_scheduled_pmts>
+                            <loss_amt>36503.91</loss_amt>
+                            <scheduled_payments>96</scheduled_payments>
+                            <past_due_3160_occurrences>12</past_due_3160_occurrences>
+                            <past_due_6190_occurrences>21</past_due_6190_occurrences>
+                            <past_due_91_plus_occurrences>38</past_due_91_plus_occurrences>
+                            <past_due_31_plus_occurrences>71</past_due_31_plus_occurrences>
+                            <cur_bal_cur_30_amt>0.00</cur_bal_cur_30_amt>
+                            <cur_bal_past_due_3160_amt>0</cur_bal_past_due_3160_amt>
+                            <cur_bal_past_due_6190_amt>0</cur_bal_past_due_6190_amt>
+                            <cur_bal_past_due_91_plus_amt>45667.66</cur_bal_past_due_91_plus_amt>
+                            <cur_bal_past_due_31_plus_amt>45667.66</cur_bal_past_due_31_plus_amt>
+                            <past_due_3160_amt>0</past_due_3160_amt>
+                            <past_due_6190_amt>0</past_due_6190_amt>
+                            <past_due_91_plus_amt>45667.66</past_due_91_plus_amt>
+                            <past_due_31_plus_amt>45667.66</past_due_31_plus_amt>
+                            <cur_30_amt_pct_of_cur_bal>0</cur_30_amt_pct_of_cur_bal>
+                            <past_due_3160_amt_pct_of_cur_bal>0</past_due_3160_amt_pct_of_cur_bal>
+                            <past_due_6190_amt_pct_of_cur_bal>0</past_due_6190_amt_pct_of_cur_bal>
+                            <past_due_91_plus_amt_pct_of_cur_bal>100</past_due_91_plus_amt_pct_of_cur_bal>
+                            <past_due_31_plus_amt_pct_of_cur_bal>100</past_due_31_plus_amt_pct_of_cur_bal>
+                            <most_recent_past_due_3160_date>2015-05-31</most_recent_past_due_3160_date>
+                            <most_recent_past_due_6190_date>2015-06-30</most_recent_past_due_6190_date>
+                            <most_recent_past_due_91_plus_date>2015-07-31</most_recent_past_due_91_plus_date>
+                            <most_recent_past_due_3160_never>0</most_recent_past_due_3160_never>
+                            <most_recent_past_due_6190_never>0</most_recent_past_due_6190_never>
+                            <most_recent_past_due_91_plus_never>0</most_recent_past_due_91_plus_never>
+                            <most_recent_loss_amt_date>2015-07-31</most_recent_loss_amt_date>
+                            <most_recent_loss_status_date>2015-07-31</most_recent_loss_status_date>
+                            <recent_avg_days_past_due>418</recent_avg_days_past_due>
+                            <recent_avg_days_past_due_unknown_ind xsi:nil="true"/>
+                            <hist_avg_days_past_due>333</hist_avg_days_past_due>
+                            <hist_avg_days_past_due_unknown_ind xsi:nil="true"/>
+                            <contract_detail_included_cnt>1</contract_detail_included_cnt>
+                            <member_lenders>
+                                <member_lender number="1">
+                                    <primary_industry>TRCK</primary_industry>
+                                    <as_of_date>2015-07-31</as_of_date>
+                                    <orig_receivable_amt>83658.42</orig_receivable_amt>
+                                    <high_credit_amt>83658.42</high_credit_amt>
+                                    <cur_bal_amt>45667.66</cur_bal_amt>
+                                    <cur_bal_amt_pct_of_high_credit>55</cur_bal_amt_pct_of_high_credit>
+                                    <cur_bal_amt_pct_of_orig_receivable>55</cur_bal_amt_pct_of_orig_receivable>
+                                    <monthly_payment_amt>1549.23</monthly_payment_amt>
+                                    <annualized_scheduled_pmts>18590.76</annualized_scheduled_pmts>
+                                    <loss_amt>36503.91</loss_amt>
+                                    <past_due_3160_amt>0</past_due_3160_amt>
+                                    <past_due_6190_amt>0</past_due_6190_amt>
+                                    <past_due_91_plus_amt>45667.66</past_due_91_plus_amt>
+                                    <scheduled_payments>96</scheduled_payments>
+                                    <past_due_3160_occurrences>12</past_due_3160_occurrences>
+                                    <past_due_6190_occurrences>21</past_due_6190_occurrences>
+                                    <past_due_91_plus_occurrences>38</past_due_91_plus_occurrences>
+                                    <most_recent_past_due_3160_date>2015-05-31</most_recent_past_due_3160_date>
+                                    <most_recent_past_due_6190_date>2015-06-30</most_recent_past_due_6190_date>
+                                    <most_recent_past_due_91_plus_date>2015-07-31</most_recent_past_due_91_plus_date>
+                                    <most_recent_past_due_3160_never>0</most_recent_past_due_3160_never>
+                                    <most_recent_past_due_6190_never>0</most_recent_past_due_6190_never>
+                                    <most_recent_past_due_91_plus_never>0</most_recent_past_due_91_plus_never>
+                                    <contracts>
+                                        <contract>
+                                            <name_address>
+                                                <primary_name><![CDATA[CHRISTOPHER W WATTS]]></primary_name>
+                                                <address_1><![CDATA[1646 PETER LN]]></address_1>
+                                                <address_2><![CDATA[]]></address_2>
+                                                <city><![CDATA[ROMEOVILLE]]></city>
+                                                <state_code>IL</state_code>
+                                                <postal_code>60446-5163</postal_code>
+                                                <telephone>8156933311</telephone>
+                                                <tax_id>*****8161</tax_id>
+                                            </name_address>
+                                            <contract_type>Loan</contract_type>
+                                            <equipment_type>TRCK</equipment_type>
+                                            <guarantor_code>YES</guarantor_code>
+                                            <term>54</term>
+                                            <payment_amt>1549.23</payment_amt>
+                                            <payment_freq>MO</payment_freq>
+                                            <orig_receivable_amt>83658.42</orig_receivable_amt>
+                                            <cur_bal_amt>45667.66</cur_bal_amt>
+                                            <cur_bal_pct_of_orig_receivable>55</cur_bal_pct_of_orig_receivable>
+                                            <past_due_3160_amt>0</past_due_3160_amt>
+                                            <past_due_6190_amt>0</past_due_6190_amt>
+                                            <past_due_91_plus_amt>45667.66</past_due_91_plus_amt>
+                                            <scheduled_payments>96</scheduled_payments>
+                                            <past_due_3160_occurrences>12</past_due_3160_occurrences>
+                                            <past_due_6190_occurrences>21</past_due_6190_occurrences>
+                                            <past_due_91_plus_occurrences>38</past_due_91_plus_occurrences>
+                                            <days_past_due>434</days_past_due>
+                                            <avg_days_past_due>208</avg_days_past_due>
+                                            <max_days_past_due_low>977</max_days_past_due_low>
+                                            <max_days_past_due_high xsi:nil="true"/>
+                                            <loss_amt>36503.91</loss_amt>
+                                            <renewal_date xsi:nil="true"/>
+                                            <closed_date xsi:nil="true"/>
+                                            <as_of_date>2015-07-31</as_of_date>
+                                            <start_date>2007-07-13</start_date>
+                                            <last_payment_date>2010-04-28</last_payment_date>
+                                            <next_payment_due_date>2014-05-23</next_payment_due_date>
+                                            <max_past_due_date>2014-04-30</max_past_due_date>
+                                            <loss_status>REPO</loss_status>
+                                            <contract_open_ind>Y</contract_open_ind>
+                                            <transferred_to_other_lender>N</transferred_to_other_lender>
+                                            <transferred_from_other_lender>N</transferred_from_other_lender>
+                                            <first_bal_date>2007-07-31</first_bal_date>
+                                        </contract>
+                                    </contracts>
+                                </member_lender>
+                            </member_lenders>
+                            <includes_others_contracts>Y</includes_others_contracts>
+                            <divergent_credit_quality>N</divergent_credit_quality>
+                        </report_data>
+                    </report>
+                </Xml>
+                <Html/>
+                <Files/>
+                <ErrorCode>0</ErrorCode>
+                <ErrorDescription/>
+            </GetReportResult>
+        </GetReportResponse>
+    </soap:Body>
+</soap:Envelope>
+</Output></Outputs></ns2:Response></ns2:FDOServiceResponse>

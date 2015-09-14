@@ -1,0 +1,95 @@
+<ns2:FDOServiceResponse xmlns:ns2="http://fdo.dam.om.fico.com/fdoserviceresponse"><ns2:Response WorkItemRef="1"><Outputs ActivityId="950411a2-fc85-4157-a626-3bdd4fb1b8c7" ActivityRef="1"><Output name="ReadableResponse">
+
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+    <CompletionCode>0000</CompletionCode>
+    <ReferenceId>031529846</ReferenceId>
+    <TransactionId>20688692</TransactionId>
+    <Products xmlns="http://www.experian.com/ARFResponse">
+        <BusinessProfile>
+            <InputSummary>
+                <SubscriberNumber>995045</SubscriberNumber>
+                <InquiryTransactionNumber>C500052151</InquiryTransactionNumber>
+                <CPUVersion>CPU006</CPUVersion>
+                <Inquiry>NARQ/1 GATEWAY PLAZA, INC;CA-WARNER 151/WAYNE PA 19087/CUST-CDAC/V-000081;1.0.1</Inquiry>
+            </InputSummary>
+            <BusinessNameAndAddress>
+                <ExperianFileNumber>031529846</ExperianFileNumber>
+                <ProfileType code="PROFILE   ">Business Profile</ProfileType>
+                <ProfileDate>20150911</ProfileDate>
+                <ProfileTime>01:27:42</ProfileTime>
+                <TerminalNumber>-ADU</TerminalNumber>
+                <FileEstablishDate>19940500</FileEstablishDate>
+                <FileEstablishFlag code=" "/>
+                <BusinessName>1 GATEWAY PLAZA, INC</BusinessName>
+                <StreetAddress>151 S WARNER RD</StreetAddress>
+                <City>WAYNE</City>
+                <State>PA</State>
+                <Zip>19087</Zip>
+                <ZipExtension>2125</ZipExtension>
+            </BusinessNameAndAddress>
+            <UCCFilingsSummaryCounts>
+                <UCCFilingsTotal>00001</UCCFilingsTotal>
+                <MostRecent6Months>
+                    <StartDate>20070101</StartDate>
+                    <FilingsTotal>000</FilingsTotal>
+                    <FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+                    <ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+                    <ContinuationsTotal>000</ContinuationsTotal>
+                    <AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+                </MostRecent6Months>
+                <Previous6Months>
+                    <StartDate>20060701</StartDate>
+                    <FilingsTotal>000</FilingsTotal>
+                    <FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+                    <ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+                    <ContinuationsTotal>000</ContinuationsTotal>
+                    <AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+                </Previous6Months>
+                <Previous6Months>
+                    <StartDate>20060101</StartDate>
+                    <FilingsTotal>000</FilingsTotal>
+                    <FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+                    <ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+                    <ContinuationsTotal>000</ContinuationsTotal>
+                    <AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+                </Previous6Months>
+                <Previous6Months>
+                    <StartDate>20050701</StartDate>
+                    <FilingsTotal>001</FilingsTotal>
+                    <FilingsWithDerogatoryCollateral>001</FilingsWithDerogatoryCollateral>
+                    <ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+                    <ContinuationsTotal>000</ContinuationsTotal>
+                    <AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+                </Previous6Months>
+                <Previous6Months>
+                    <StartDate>20050101</StartDate>
+                    <FilingsTotal>000</FilingsTotal>
+                    <FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+                    <ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+                    <ContinuationsTotal>000</ContinuationsTotal>
+                    <AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+                </Previous6Months>
+                <Previous6Months>
+                    <StartDate>20050101</StartDate>
+                    <FilingsTotal>000</FilingsTotal>
+                    <FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+                    <ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+                    <ContinuationsTotal>000</ContinuationsTotal>
+                    <AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+                </Previous6Months>
+            </UCCFilingsSummaryCounts>
+            <CorporateInformation>
+                <StateOfOrigin>NY</StateOfOrigin>
+                <OriginalFilingDate>00000000</OriginalFilingDate>
+                <RecentFilingDate>00000000</RecentFilingDate>
+                <IncorporatedDate>19840515</IncorporatedDate>
+                <BusinessType code="I">Incorporated</BusinessType>
+                <StatusFlag code=" "/>
+                <ProfitFlag code="N">Non-profit</ProfitFlag>
+                <CharterNumber>916863</CharterNumber>
+            </CorporateInformation>
+            <BillingIndicator code="F">Full Charge</BillingIndicator>
+        </BusinessProfile>
+    </Products>
+</NetConnectResponse>
+</Output></Outputs></ns2:Response></ns2:FDOServiceResponse>

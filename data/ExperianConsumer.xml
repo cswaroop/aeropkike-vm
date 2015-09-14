@@ -1,0 +1,1011 @@
+<ns2:FDOServiceResponse xmlns:ns2="http://fdo.dam.om.fico.com/fdoserviceresponse"><ns2:Response WorkItemRef="1"><Outputs ActivityId="e185afd3-3990-4d43-a751-124ddf0236c8" ActivityRef="1"><Output name="ReadableResponse"><Readable>   <ExperianResponse>
+                <HeaderRecord110>
+                        <RecordLength>0028</RecordLength>
+                        <ReportDate>033002</ReportDate>
+                        <ReportTime>103716</ReportTime>
+                        <Preamble>TCA1</Preamble>
+                        <VersionNo>07</VersionNo>
+                        <MKeywordLength>00</MKeywordLength>
+                        <MKeywordText></MKeywordText>
+                </HeaderRecord110>
+                <RiskModel125>
+                        <RecordLength>0022</RecordLength>
+                        <RiskScore>0700</RiskScore>
+                        <Evaluation>P</Evaluation>
+                        <ScoreFactorCodes>22131834</ScoreFactorCodes>
+                        <ModelTypeIndicator>F</ModelTypeIndicator>
+                </RiskModel125>
+                <RiskModel125>
+                        <RecordLength>0022</RecordLength>
+                        <RiskScore>0502</RiskScore>
+                        <Evaluation>P</Evaluation>
+                        <ScoreFactorCodes>19350108</ScoreFactorCodes>
+                        <ModelTypeIndicator>3</ModelTypeIndicator>
+                </RiskModel125>
+                <RiskModel125>
+                        <RecordLength>0022</RecordLength>
+                        <RiskScore>0925</RiskScore>
+                        <Evaluation>P</Evaluation>
+                        <ScoreFactorCodes> K C H B</ScoreFactorCodes>
+                        <ModelTypeIndicator>B</ModelTypeIndicator>
+                </RiskModel125>
+                <SSN322>
+                        <RecordLength>0018</RecordLength>
+                        <SSNVariationIndicator> </SSNVariationIndicator>
+                        <SSN>999999990</SSN>
+                </SSN322>
+                <SSN322>
+                        <RecordLength>0018</RecordLength>
+                        <SSNVariationIndicator>*</SSNVariationIndicator>
+                        <SSN>234567891</SSN>
+                </SSN322>
+                <SSN322>
+                        <RecordLength>0018</RecordLength>
+                        <SSNVariationIndicator>*</SSNVariationIndicator>
+                        <SSN>123456789</SSN>
+                </SSN322>
+                <Name335>
+                        <RecordLength>0038</RecordLength>
+                        <NameLength>24</NameLength>
+                        <NameText>JONATHAN QUINCY CONSUMER</NameText>
+                        <YearOfBirth>1951</YearOfBirth>
+                </Name335>
+                <Name335>
+                        <RecordLength>0032</RecordLength>
+                        <NameLength>13</NameLength>
+                        <NameText>JACK CONSUMER</NameText>
+                        <YearOfBirth>    </YearOfBirth>
+                        <NameSubsegmentE1>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <NameType>N</NameType>
+                        </NameSubsegmentE1>
+                </Name335>
+                <Name335>
+                        <RecordLength>0029</RecordLength>
+                        <NameLength>10</NameLength>
+                        <NameText>JOHN SMITH</NameText>
+                        <YearOfBirth>    </YearOfBirth>
+                        <NameSubsegmentE1>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <NameType>A</NameType>
+                        </NameSubsegmentE1>
+                </Name335>
+                <Name335>
+                        <RecordLength>0042</RecordLength>
+                        <NameLength>23</NameLength>
+                        <NameText>JONATHAN SMITH JONES JR</NameText>
+                        <YearOfBirth>    </YearOfBirth>
+                        <NameSubsegmentE1>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <NameType>A</NameType>
+                        </NameSubsegmentE1>
+                </Name335>
+                <Address336>
+                        <RecordLength>0082</RecordLength>
+                        <FirstReportedDate>0695</FirstReportedDate>
+                        <LastUpdatedDate>0198</LastUpdatedDate>
+                        <OriginationCode>2</OriginationCode>
+                        <NumberTimesReported>03</NumberTimesReported>
+                        <LastSubcodeReporting>1220855</LastSubcodeReporting>
+                        <DwellingType>S</DwellingType>
+                        <HomeOwnershipCode>O</HomeOwnershipCode>
+                        <CensusGEOCode>4567890</CensusGEOCode>
+                        <AddressTextLength>38</AddressTextLength>
+                        <AddressText>10655 N BIRCH ST/BURBANK CA 91502-1234</AddressText>
+                        <GEOCountyCodeSubsegmentD2>
+                                <SubsegmentLength>07</SubsegmentLength>
+                                <CountryCode>123</CountryCode>
+                        </GEOCountyCodeSubsegmentD2>
+                </Address336>
+                <Address336>
+                        <RecordLength>0081</RecordLength>
+                        <FirstReportedDate>    </FirstReportedDate>
+                        <LastUpdatedDate>0295</LastUpdatedDate>
+                        <OriginationCode>2</OriginationCode>
+                        <NumberTimesReported>01</NumberTimesReported>
+                        <LastSubcodeReporting>2390446</LastSubcodeReporting>
+                        <DwellingType>A</DwellingType>
+                        <HomeOwnershipCode>R</HomeOwnershipCode>
+                        <CensusGEOCode>       </CensusGEOCode>
+                        <AddressTextLength>44</AddressTextLength>
+                        <AddressText>1314 SOPHIA LN APT 3/SANTA ANA CA 92708-5678</AddressText>
+                </Address336>
+                <Address336>
+                        <RecordLength>0082</RecordLength>
+                        <FirstReportedDate>    </FirstReportedDate>
+                        <LastUpdatedDate>0993</LastUpdatedDate>
+                        <OriginationCode>6</OriginationCode>
+                        <NumberTimesReported>  </NumberTimesReported>
+                        <LastSubcodeReporting>2390446</LastSubcodeReporting>
+                        <DwellingType>A</DwellingType>
+                        <HomeOwnershipCode>R</HomeOwnershipCode>
+                        <CensusGEOCode>       </CensusGEOCode>
+                        <AddressTextLength>45</AddressTextLength>
+                        <AddressText>2600 BOWSER ST #312/LOS ANGELES CA 90017-9876</AddressText>
+                </Address336>
+                <Employment337>
+                        <RecordLength>0086</RecordLength>
+                        <FirstReportedDate>    </FirstReportedDate>
+                        <LastUpdatedDate>1298</LastUpdatedDate>
+                        <OriginationCode>2</OriginationCode>
+                        <EmployerNameLength>13</EmployerNameLength>
+                        <EmploymentName>AJAX HARDWARE</EmploymentName>
+                        <FirstAddressLineLength>23</FirstAddressLineLength>
+                        <FirstAddressLine>2035 BROADWAY SUITE 300</FirstAddressLine>
+                        <SecondAddressLineLength>14</SecondAddressLineLength>
+                        <SecondAddressLine>LOS ANGELES CA</SecondAddressLine>
+                        <ExtraAddressLineLength>01</ExtraAddressLineLength>
+                        <ExtraAddressLine> </ExtraAddressLine>
+                        <EmployerZIPCode>90019     </EmployerZIPCode>
+                </Employment337>
+                <Employment337>
+                        <RecordLength>0076</RecordLength>
+                        <FirstReportedDate>0591</FirstReportedDate>
+                        <LastUpdatedDate>0991</LastUpdatedDate>
+                        <OriginationCode>2</OriginationCode>
+                        <EmployerNameLength>15</EmployerNameLength>
+                        <EmploymentName>BELL AUTOMOTIVE</EmploymentName>
+                        <FirstAddressLineLength>15</FirstAddressLineLength>
+                        <FirstAddressLine>111 MAIN STREET</FirstAddressLine>
+                        <SecondAddressLineLength>10</SecondAddressLineLength>
+                        <SecondAddressLine>BURBANK CA</SecondAddressLine>
+                        <ExtraAddressLineLength>01</ExtraAddressLineLength>
+                        <ExtraAddressLine> </ExtraAddressLine>
+                        <EmployerZIPCode>91503     </EmployerZIPCode>
+                </Employment337>
+                <PublicRecord350>
+                        <RecordLength>0106</RecordLength>
+                        <Status>35</Status>
+                        <Evaluation>N</Evaluation>
+                        <StatusDate>070195</StatusDate>
+                        <Amount>00012450</Amount>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <CourtNameSubsegmentA6>
+                                <SubsegmentLength>36</SubsegmentLength>
+                                <CourtCode>3051111</CourtCode>
+                                <CourtNameLength>23</CourtNameLength>
+                                <CourtName>SO CALIF DISTRICT COURT</CourtName>
+                        </CourtNameSubsegmentA6>
+                        <ReferenceNumberSubsegmentA7>
+                                <SubsegmentLength>12</SubsegmentLength>
+                                <ReferenceNumber>45078321</ReferenceNumber>
+                        </ReferenceNumberSubsegmentA7>
+                        <PublicRecordECOASubsegmentE3>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <ECOACode>1</ECOACode>
+                        </PublicRecordECOASubsegmentE3>
+                        <BookPageSubsegmentE5>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <BookPage>B476P2109</BookPage>
+                        </BookPageSubsegmentE5>
+                        <OriginalFilingSubsegmentY2>
+                                <SubsegmentLength>10</SubsegmentLength>
+                                <OriginalFilingDate>062094</OriginalFilingDate>
+                        </OriginalFilingSubsegmentY2>
+                </PublicRecord350>
+                <PublicRecord350>
+                        <RecordLength>0115</RecordLength>
+                        <Status>08</Status>
+                        <Evaluation>N</Evaluation>
+                        <StatusDate>091993</StatusDate>
+                        <Amount>00001200</Amount>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <CourtNameSubsegmentA6>
+                                <SubsegmentLength>36</SubsegmentLength>
+                                <CourtCode>3019999</CourtCode>
+                                <CourtNameLength>23</CourtNameLength>
+                                <CourtName>COUNTY SPR CT SANTA ANA</CourtName>
+                        </CourtNameSubsegmentA6>
+                        <ReferenceNumberSubsegmentA7>
+                                <SubsegmentLength>11</SubsegmentLength>
+                                <ReferenceNumber>7505853</ReferenceNumber>
+                        </ReferenceNumberSubsegmentA7>
+                        <PlaintiffSubsegmentA8>
+                                <SubsegmentLength>18</SubsegmentLength>
+                                <PlaintiffName>ALLIED COMPANY</PlaintiffName>
+                        </PlaintiffSubsegmentA8>
+                        <PublicRecordECOASubsegmentE3>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <ECOACode>1</ECOACode>
+                        </PublicRecordECOASubsegmentE3>
+                        <BookPageSubsegmentE5>
+                                <SubsegmentLength>15</SubsegmentLength>
+                                <BookPage>B1234P50987</BookPage>
+                        </BookPageSubsegmentE5>
+                </PublicRecord350>
+                <PublicRecord350>
+                        <RecordLength>0119</RecordLength>
+                        <Status>13</Status>
+                        <Evaluation>N</Evaluation>
+                        <StatusDate>021093</StatusDate>
+                        <Amount>00100000</Amount>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <CourtNameSubsegmentA6>
+                                <SubsegmentLength>33</SubsegmentLength>
+                                <CourtCode>3009999</CourtCode>
+                                <CourtNameLength>20</CourtNameLength>
+                                <CourtName>U S BANKRUPTCY COURT</CourtName>
+                        </CourtNameSubsegmentA6>
+                        <ReferenceNumberSubsegmentA7>
+                                <SubsegmentLength>21</SubsegmentLength>
+                                <ReferenceNumber>35054539906234561</ReferenceNumber>
+                        </ReferenceNumberSubsegmentA7>
+                        <PublicRecordECOASubsegmentE3>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <ECOACode>2</ECOACode>
+                        </PublicRecordECOASubsegmentE3>
+                        <BankruptcySubsegmentE4>
+                                <SubsegmentLength>25</SubsegmentLength>
+                                <AssetAmount>00008500</AssetAmount>
+                                <LiabilitiesAmount>00100000</LiabilitiesAmount>
+                                <RepaymentPercent>   </RepaymentPercent>
+                                <AdjustmentPercent>  </AdjustmentPercent>
+                        </BankruptcySubsegmentE4>
+                        <BankruptcyVolSubsegmentF1>
+                                <SubsegmentLength>05</SubsegmentLength>
+                                <VolValue>V</VolValue>
+                        </BankruptcyVolSubsegmentF1>
+                </PublicRecord350>
+                <Tradeline357>
+                        <RecordLength>0219</RecordLength>
+                        <SpecialCommentCode>78</SpecialCommentCode>
+                        <Evaluation>N</Evaluation>
+                        <DateOpen>0994</DateOpen>
+                        <StatusDate>0994</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>31</TypeCode>
+                        <Terms>UNK</Terms>
+                        <ECOA>2</ECOA>
+                        <Amount1>00000500</Amount1>
+                        <Amount1Qualifier>O</Amount1Qualifier>
+                        <Amount2>        </Amount2>
+                        <Amount2Qualifier> </Amount2Qualifier>
+                        <BalanceDate>040596</BalanceDate>
+                        <BalanceAmount>00000250</BalanceAmount>
+                        <Status>93</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall> </RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <AccountNumber>98E543182136</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>20</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>20</DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>24</SubsegmentLength>
+                                <PaymentProfile>99999999999999999999</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>36</SubsegmentLength>
+                                <Subcode>3980999</Subcode>
+                                <KOB>YC</KOB>
+                                <SubNameLength>21</SubNameLength>
+                                <SubName>CREDIT AND COLLECTION</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <OriginalCreditorSubsegmentB7>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <OriginalCreditor>DR. JOHN KILDARE</OriginalCreditor>
+                        </OriginalCreditorSubsegmentB7>
+                        <DelinquencyDatesSubsegmentF2>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <MaximumPaymentCode>9</MaximumPaymentCode>
+                                <FirstDelinquencyDate>0994</FirstDelinquencyDate>
+                                <SecondDelinquencyDate>    </SecondDelinquencyDate>
+                        </DelinquencyDatesSubsegmentF2>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0994</InitialPaymentLevelDate>
+                                <AccountConditionCode>93</AccountConditionCode>
+                                <EnhancedPaymentStatus>93</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>31</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>78</EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0177</RecordLength>
+                        <SpecialCommentCode>19</SpecialCommentCode>
+                        <Evaluation>P</Evaluation>
+                        <DateOpen>0596</DateOpen>
+                        <StatusDate>0596</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>18</TypeCode>
+                        <Terms>REV</Terms>
+                        <ECOA>2</ECOA>
+                        <Amount1>00007000</Amount1>
+                        <Amount1Qualifier>L</Amount1Qualifier>
+                        <Amount2>00005700</Amount2>
+                        <Amount2Qualifier>H</Amount2Qualifier>
+                        <BalanceDate>100197</BalanceDate>
+                        <BalanceAmount>00000000</BalanceAmount>
+                        <Status>11</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>C</OpenClosed>
+                        <RevInstall>R</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <AccountNumber>405855254820</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>18</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>22</SubsegmentLength>
+                                <PaymentProfile>B0CCCCCCCCCCCCCCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <Subcode>1211248</Subcode>
+                                <KOB>BC</KOB>
+                                <SubNameLength>14</SubNameLength>
+                                <SubName>ISLAND SAVINGS</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0596</InitialPaymentLevelDate>
+                                <AccountConditionCode>A3</AccountConditionCode>
+                                <EnhancedPaymentStatus>11</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>18</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>19</EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0171</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>P</Evaluation>
+                        <DateOpen>0295</DateOpen>
+                        <StatusDate>0295</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>06</TypeCode>
+                        <Terms>024</Terms>
+                        <ECOA>3</ECOA>
+                        <Amount1>00001000</Amount1>
+                        <Amount1Qualifier>L</Amount1Qualifier>
+                        <Amount2>        </Amount2>
+                        <Amount2Qualifier> </Amount2Qualifier>
+                        <BalanceDate>061096</BalanceDate>
+                        <BalanceAmount>00001000</BalanceAmount>
+                        <Status>11</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall>I</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>17</SubsegmentLength>
+                                <AccountNumber>8285103111261</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>17</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>21</SubsegmentLength>
+                                <PaymentProfile>NNNNNNNNNNNNNNNNN</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>23</SubsegmentLength>
+                                <Subcode>2313849</Subcode>
+                                <KOB>DC</KOB>
+                                <SubNameLength>08</SubNameLength>
+                                <SubName>HEMLOCKS</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0295</InitialPaymentLevelDate>
+                                <AccountConditionCode>A1</AccountConditionCode>
+                                <EnhancedPaymentStatus>11</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>06</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0214</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>N</Evaluation>
+                        <DateOpen>1293</DateOpen>
+                        <StatusDate>0696</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>00</TypeCode>
+                        <Terms>048</Terms>
+                        <ECOA>1</ECOA>
+                        <Amount1>00022350</Amount1>
+                        <Amount1Qualifier>O</Amount1Qualifier>
+                        <Amount2>        </Amount2>
+                        <Amount2Qualifier> </Amount2Qualifier>
+                        <BalanceDate>061596</BalanceDate>
+                        <BalanceAmount>00011050</BalanceAmount>
+                        <Status>71</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>00000465</AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall>I</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>15</SubsegmentLength>
+                                <AccountNumber>23802654388</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>31</MonthsReviewed>
+                                <DayCounter30>01</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile>1CCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <MonthlyPaymentSubsegmentB5>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <MonthlyPaymentAmount>00000465</MonthlyPaymentAmount>
+                                <MonthlyPaymentType> </MonthlyPaymentType>
+                                <Frequency> </Frequency>
+                                <LastPaymentDate>050196</LastPaymentDate>
+                        </MonthlyPaymentSubsegmentB5>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>27</SubsegmentLength>
+                                <Subcode>1132912</Subcode>
+                                <KOB>BI</KOB>
+                                <SubNameLength>12</SubNameLength>
+                                <SubName>CENTRAL BANK</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <DelinquencyDatesSubsegmentF2>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <MaximumPaymentCode>1</MaximumPaymentCode>
+                                <FirstDelinquencyDate>0696</FirstDelinquencyDate>
+                                <SecondDelinquencyDate>    </SecondDelinquencyDate>
+                        </DelinquencyDatesSubsegmentF2>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0696</InitialPaymentLevelDate>
+                                <AccountConditionCode>A1</AccountConditionCode>
+                                <EnhancedPaymentStatus>71</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>00</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0223</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>N</Evaluation>
+                        <DateOpen>0393</DateOpen>
+                        <StatusDate>1296</StatusDate>
+                        <MaximumDelinquencyDate>0994</MaximumDelinquencyDate>
+                        <TypeCode>02</TypeCode>
+                        <Terms>060</Terms>
+                        <ECOA>2</ECOA>
+                        <Amount1>00043225</Amount1>
+                        <Amount1Qualifier>O</Amount1Qualifier>
+                        <Amount2>        </Amount2>
+                        <Amount2Qualifier> </Amount2Qualifier>
+                        <BalanceDate>121796</BalanceDate>
+                        <BalanceAmount>00019330</BalanceAmount>
+                        <Status>73</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>00000956</AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall>I</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>25</SubsegmentLength>
+                                <AccountNumber>3562A0197325346R12345</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>39</MonthsReviewed>
+                                <DayCounter30>03</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile>1CCCCCC1CCCCCCCCCCCCCCCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <MonthlyPaymentSubsegmentB5>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <MonthlyPaymentAmount>00000956</MonthlyPaymentAmount>
+                                <MonthlyPaymentType> </MonthlyPaymentType>
+                                <Frequency> </Frequency>
+                                <LastPaymentDate>110196</LastPaymentDate>
+                        </MonthlyPaymentSubsegmentB5>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>26</SubsegmentLength>
+                                <Subcode>1119999</Subcode>
+                                <KOB>BI</KOB>
+                                <SubNameLength>11</SubNameLength>
+                                <SubName>MOUNTAIN BK</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <DelinquencyDatesSubsegmentF2>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <MaximumPaymentCode>1</MaximumPaymentCode>
+                                <FirstDelinquencyDate>1296</FirstDelinquencyDate>
+                                <SecondDelinquencyDate>0596</SecondDelinquencyDate>
+                        </DelinquencyDatesSubsegmentF2>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>1296</InitialPaymentLevelDate>
+                                <AccountConditionCode>A1</AccountConditionCode>
+                                <EnhancedPaymentStatus>73</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>02</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0191</RecordLength>
+                        <SpecialCommentCode>13</SpecialCommentCode>
+                        <Evaluation>N</Evaluation>
+                        <DateOpen>0168</DateOpen>
+                        <StatusDate>0596</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>07</TypeCode>
+                        <Terms>REV</Terms>
+                        <ECOA>2</ECOA>
+                        <Amount1>00001400</Amount1>
+                        <Amount1Qualifier>L</Amount1Qualifier>
+                        <Amount2>        </Amount2>
+                        <Amount2Qualifier> </Amount2Qualifier>
+                        <BalanceDate>053196</BalanceDate>
+                        <BalanceAmount>00000000</BalanceAmount>
+                        <Status>84</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>C</OpenClosed>
+                        <RevInstall>R</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <AccountNumber>525556601</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>99</MonthsReviewed>
+                                <DayCounter30>01</DayCounter30>
+                                <DayCounter60>01</DayCounter60>
+                                <DayCounter90Plus>04</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile>7654321CCCC00CCCCCCCCCCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>26</SubsegmentLength>
+                                <Subcode>2390446</Subcode>
+                                <KOB>DC</KOB>
+                                <SubNameLength>11</SubNameLength>
+                                <SubName>BAY COMPANY</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <DelinquencyDatesSubsegmentF2>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <MaximumPaymentCode>7</MaximumPaymentCode>
+                                <FirstDelinquencyDate>0596</FirstDelinquencyDate>
+                                <SecondDelinquencyDate>0496</SecondDelinquencyDate>
+                        </DelinquencyDatesSubsegmentF2>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0596</InitialPaymentLevelDate>
+                                <AccountConditionCode>69</AccountConditionCode>
+                                <EnhancedPaymentStatus>84</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>07</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>13</EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0209</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>P</Evaluation>
+                        <DateOpen>0285</DateOpen>
+                        <StatusDate>0285</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>18</TypeCode>
+                        <Terms>REV</Terms>
+                        <ECOA>2</ECOA>
+                        <Amount1>00010000</Amount1>
+                        <Amount1Qualifier>L</Amount1Qualifier>
+                        <Amount2>00007108</Amount2>
+                        <Amount2Qualifier>H</Amount2Qualifier>
+                        <BalanceDate>011598</BalanceDate>
+                        <BalanceAmount>00006029</BalanceAmount>
+                        <Status>11</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall>R</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>13</SubsegmentLength>
+                                <AccountNumber>525556601</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>99</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile> CCCCCCCCCCCC00000000CCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <MonthlyPaymentSubsegmentB5>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <MonthlyPaymentAmount>00000180</MonthlyPaymentAmount>
+                                <MonthlyPaymentType> </MonthlyPaymentType>
+                                <Frequency> </Frequency>
+                                <LastPaymentDate>010198</LastPaymentDate>
+                        </MonthlyPaymentSubsegmentB5>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>37</SubsegmentLength>
+                                <Subcode>1220855</Subcode>
+                                <KOB>BC</KOB>
+                                <SubNameLength>22</SubNameLength>
+                                <SubName>EMPLOYEES CREDIT UNION</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0285</InitialPaymentLevelDate>
+                                <AccountConditionCode>A1</AccountConditionCode>
+                                <EnhancedPaymentStatus>11</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>18</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0206</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>P</Evaluation>
+                        <DateOpen>0590</DateOpen>
+                        <StatusDate>0590</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>08</TypeCode>
+                        <Terms>360</Terms>
+                        <ECOA>2</ECOA>
+                        <Amount1>00400000</Amount1>
+                        <Amount1Qualifier>O</Amount1Qualifier>
+                        <Amount2>        </Amount2>
+                        <Amount2Qualifier> </Amount2Qualifier>
+                        <BalanceDate>011298</BalanceDate>
+                        <BalanceAmount>00234000</BalanceAmount>
+                        <Status>11</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall>I</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>18</SubsegmentLength>
+                                <AccountNumber>24000098500012</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>92</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile> CCCCCCCCCCCCCCCCC000CCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <MonthlyPaymentSubsegmentB5>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <MonthlyPaymentAmount>00003128</MonthlyPaymentAmount>
+                                <MonthlyPaymentType>S</MonthlyPaymentType>
+                                <Frequency> </Frequency>
+                                <LastPaymentDate>120197</LastPaymentDate>
+                        </MonthlyPaymentSubsegmentB5>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <Subcode>5935250</Subcode>
+                                <KOB>FM</KOB>
+                                <SubNameLength>14</SubNameLength>
+                                <SubName>HOME FINANCIAL</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0590</InitialPaymentLevelDate>
+                                <AccountConditionCode>A1</AccountConditionCode>
+                                <EnhancedPaymentStatus>11</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>08</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0198</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>P</Evaluation>
+                        <DateOpen>0190</DateOpen>
+                        <StatusDate>0190</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>18</TypeCode>
+                        <Terms>REV</Terms>
+                        <ECOA>1</ECOA>
+                        <Amount1>00010000</Amount1>
+                        <Amount1Qualifier>L</Amount1Qualifier>
+                        <Amount2>00009612</Amount2>
+                        <Amount2Qualifier>H</Amount2Qualifier>
+                        <BalanceDate>061596</BalanceDate>
+                        <BalanceAmount>00008628</BalanceAmount>
+                        <Status>11</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>O</OpenClosed>
+                        <RevInstall>R</RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <AccountNumber>4271008232</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>85</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile> CCCCCCCCCCCCCCCCC000CCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <MonthlyPaymentSubsegmentB5>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <MonthlyPaymentAmount>00000255</MonthlyPaymentAmount>
+                                <MonthlyPaymentType> </MonthlyPaymentType>
+                                <Frequency> </Frequency>
+                                <LastPaymentDate>050196</LastPaymentDate>
+                        </MonthlyPaymentSubsegmentB5>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>25</SubsegmentLength>
+                                <Subcode>1299987</Subcode>
+                                <KOB>BC</KOB>
+                                <SubNameLength>10</SubNameLength>
+                                <SubName>STATE BANK</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>0190</InitialPaymentLevelDate>
+                                <AccountConditionCode>A1</AccountConditionCode>
+                                <EnhancedPaymentStatus>11</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>18</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Tradeline357>
+                        <RecordLength>0185</RecordLength>
+                        <SpecialCommentCode>  </SpecialCommentCode>
+                        <Evaluation>P</Evaluation>
+                        <DateOpen>0395</DateOpen>
+                        <StatusDate>1297</StatusDate>
+                        <MaximumDelinquencyDate>    </MaximumDelinquencyDate>
+                        <TypeCode>18</TypeCode>
+                        <Terms>001</Terms>
+                        <ECOA>1</ECOA>
+                        <Amount1>00004000</Amount1>
+                        <Amount1Qualifier>L</Amount1Qualifier>
+                        <Amount2>00003612</Amount2>
+                        <Amount2Qualifier>H</Amount2Qualifier>
+                        <BalanceDate>122097</BalanceDate>
+                        <BalanceAmount>00000000</BalanceAmount>
+                        <Status>12</Status>
+                        <Reserved>  </Reserved>
+                        <AmountPastDue>        </AmountPastDue>
+                        <OpenClosed>C</OpenClosed>
+                        <RevInstall> </RevInstall>
+                        <ConsumerCommentLength>0001</ConsumerCommentLength>
+                        <ConsumerComment> </ConsumerComment>
+                        <ReferenceIDSubsegmentA9>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <AccountNumber>4271008232</AccountNumber>
+                        </ReferenceIDSubsegmentA9>
+                        <PaymentCountersSubsegmentB2>
+                                <SubsegmentLength>14</SubsegmentLength>
+                                <MonthsReviewed>34</MonthsReviewed>
+                                <DayCounter30>00</DayCounter30>
+                                <DayCounter60>00</DayCounter60>
+                                <DayCounter90Plus>00</DayCounter90Plus>
+                                <DerogCounter>  </DerogCounter>
+                        </PaymentCountersSubsegmentB2>
+                        <PaymentProfileSubsegmentB4>
+                                <SubsegmentLength>29</SubsegmentLength>
+                                <PaymentProfile> CCCCCCCCCCCCCCCCC000CCCC</PaymentProfile>
+                        </PaymentProfileSubsegmentB4>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>32</SubsegmentLength>
+                                <Subcode>3488520</Subcode>
+                                <KOB>N </KOB>
+                                <SubNameLength>17</SubNameLength>
+                                <SubName>TRAVEL CHARGE USA</SubName>
+                        </SubscriberIDSubsegmentB6>
+                        <EnhancedPaymentSubsegmentF3>
+                                <SubsegmentLength>16</SubsegmentLength>
+                                <InitialPaymentLevelDate>1297</InitialPaymentLevelDate>
+                                <AccountConditionCode>A2</AccountConditionCode>
+                                <EnhancedPaymentStatus>11</EnhancedPaymentStatus>
+                                <EnhancedTypeCodes>18</EnhancedTypeCodes>
+                                <EnhancedSpecialComments>  </EnhancedSpecialComments>
+                        </EnhancedPaymentSubsegmentF3>
+                </Tradeline357>
+                <Inquiry359>
+                        <RecordLength>0050</RecordLength>
+                        <InquiryDate>120598</InquiryDate>
+                        <Amount> UNKNOWN</Amount>
+                        <Type>31</Type>
+                        <Terms>UNK</Terms>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>23</SubsegmentLength>
+                                <Subcode>2313849</Subcode>
+                                <KOB>DC</KOB>
+                                <SubscriberNameLength>08</SubscriberNameLength>
+                                <SubscriberName>HEMLOCKS</SubscriberName>
+                        </SubscriberIDSubsegmentB6>
+                </Inquiry359>
+                <Inquiry359>
+                        <RecordLength>0053</RecordLength>
+                        <InquiryDate>120398</InquiryDate>
+                        <Amount>00001500</Amount>
+                        <Type>07</Type>
+                        <Terms>REV</Terms>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>26</SubsegmentLength>
+                                <Subcode>2390446</Subcode>
+                                <KOB>DC</KOB>
+                                <SubscriberNameLength>11</SubscriberNameLength>
+                                <SubscriberName>BAY COMPANY</SubscriberName>
+                        </SubscriberIDSubsegmentB6>
+                </Inquiry359>
+                <Inquiry359>
+                        <RecordLength>0055</RecordLength>
+                        <InquiryDate>102197</InquiryDate>
+                        <Amount> UNKNOWN</Amount>
+                        <Type>31</Type>
+                        <Terms>UNK</Terms>
+                        <SubscriberIDSubsegmentB6>
+                                <SubsegmentLength>28</SubsegmentLength>
+                                <Subcode>2240679</Subcode>
+                                <KOB>BC</KOB>
+                                <SubscriberNameLength>13</SubscriberNameLength>
+                                <SubscriberName>HILLSIDE BANK</SubscriberName>
+                        </SubscriberIDSubsegmentB6>
+                </Inquiry359>
+                <Statement365>
+                        <RecordLength>0366</RecordLength>
+                        <TypeCode>06</TypeCode>
+                        <DateReported>033002</DateReported>
+                        <TextLength>0346</TextLength>
+                        <StatementText>**#HK# ID SECURITY ALERT: FRAUDULENT APPLICATIONS MAY BE SUBMITTED IN MY NAME OR MY IDENTITY MAY HAVE BEEN USED WITHOUT MY CONSENT TO FRAUDULENTLY OBTAIN GOODS OR SERVICES.  DO NOT EXTEND CREDIT WITHOUT FIRST CONTACTING ME PERSONALLY AND VERIFYING ALL APPLICANT INFORMATION.  THIS SECURITY ALERT WILL BE MAINTAINED FOR 90 DAYS BEGINNING 05-01-02.</StatementText>
+                </Statement365>
+                <FraudServices382>
+                        <RecordLength>0145</RecordLength>
+                        <RecordType>01</RecordType>
+                        <SICCodes>73890300</SICCodes>
+                        <TextLength>086</TextLength>
+                        <TextData>PHONE ANSWERING SERVICE:/ABC ANSWER-ALL/10655 N BIRCH ST/BURBANK CA 91502/818.555.1212</TextData>
+                        <FraudServicesCountersSubsegmentC2>
+                                <SubsegmentLength>26</SubsegmentLength>
+                                <SocialDate>030196</SocialDate>
+                                <SocialCount>0008</SocialCount>
+                                <SocialErrorCode>0</SocialErrorCode>
+                                <AddressDate>030196</AddressDate>
+                                <AddressCount>0015</AddressCount>
+                                <AddressErrorCode>0</AddressErrorCode>
+                        </FraudServicesCountersSubsegmentC2>
+                        <FraudServicesSSNIssuedSubsegmentC3>
+                                <SubsegmentLength>12</SubsegmentLength>
+                                <FirstPossibleYear>1965</FirstPossibleYear>
+                                <LastPossibleYear>1966</LastPossibleYear>
+                        </FraudServicesSSNIssuedSubsegmentC3>
+                </FraudServices382>
+                <FraudServices382>
+                        <RecordLength>0119</RecordLength>
+                        <RecordType>04</RecordType>
+                        <SICCodes>99000000</SICCodes>
+                        <TextLength>098</TextLength>
+                        <TextData>COMMERCIAL BUSINESS ADDRESS:/J&amp;amp;J INVESTMENTS/2600 BOWSER ST #312/LOS ANGELES CA 90017/213.111.2222</TextData>
+                </FraudServices382>
+                <FraudServices382>
+                        <RecordLength>0077</RecordLength>
+                        <RecordType>02</RecordType>
+                        <SICCodes>        </SICCodes>
+                        <TextLength>036</TextLength>
+                        <TextData>CKPT: INPUT SSN RECORDED AS DECEASED</TextData>
+                        <FraudServicesRetiredSSNSubsegmentD1>
+                                <SubsegmentLength>20</SubsegmentLength>
+                                <DateOfBirth>01101951</DateOfBirth>
+                                <DateOfDeath>03301996</DateOfDeath>
+                        </FraudServicesRetiredSSNSubsegmentD1>
+                </FraudServices382>
+                <ConsumerAssistanceReferralAddress800>
+                        <RecordLength>0093</RecordLength>
+                        <CRSOfficeNameSubsegmentC5>
+                                <SubsegmentLength>12</SubsegmentLength>
+                                <CRSOfficeNameText>EXPERIAN</CRSOfficeNameText>
+                        </CRSOfficeNameSubsegmentC5>
+                        <CRSStreetNameC6>
+                                <SubsegmentLength>24</SubsegmentLength>
+                                <CRSStreetNameText>701 EXPERIAN PARKWAY</CRSStreetNameText>
+                        </CRSStreetNameC6>
+                        <CRSPOBoxC7>
+                                <SubsegmentLength>15</SubsegmentLength>
+                                <CRSPOBoxText>PO BOX 2002</CRSPOBoxText>
+                        </CRSPOBoxC7>
+                        <CRSCityStateZIPC8>
+                                <SubsegmentLength>19</SubsegmentLength>
+                                <CRSCityStateZIPText>ALLEN, TX 75013</CRSCityStateZIPText>
+                        </CRSCityStateZIPC8>
+                        <CRSPhoneNumberC9>
+                                <SubsegmentLength>15</SubsegmentLength>
+                                <CRSPhoneNumber>8883973742</CRSPhoneNumber>
+                                <Filler> </Filler>
+                        </CRSPhoneNumberC9>
+                </ConsumerAssistanceReferralAddress800>
+                <ProfileSummary850>
+                        <RecordLength>0101</RecordLength>
+                        <DisputedAccountsExcluded>001</DisputedAccountsExcluded>
+                        <PublicRecordsCount>003</PublicRecordsCount>
+                        <InstallmentBalance>00045037</InstallmentBalance>
+                        <RealEstateBalance>00234000</RealEstateBalance>
+                        <TotalRevolvingBalance>00014657</TotalRevolvingBalance>
+                        <PastDueAmount>00001421</PastDueAmount>
+                        <MonthlyPayment>00001865</MonthlyPayment>
+                        <MonthlyPaymentPartialFlag> </MonthlyPaymentPartialFlag>
+                        <RealEstatePayment>00003128</RealEstatePayment>
+                        <RealEstatePaymentPartialFlag> </RealEstatePaymentPartialFlag>
+                        <TotalRevolvingAvailablePercent>027</TotalRevolvingAvailablePercent>
+                        <RevolvingAvailablePartialFlag> </RevolvingAvailablePartialFlag>
+                        <TotalInquiresCounter>003</TotalInquiresCounter>
+                        <InquiresDuringLast6MonthsCounter>000</InquiresDuringLast6MonthsCounter>
+                        <TotalTradeItemsCounter>010</TotalTradeItemsCounter>
+                        <PaidAccountsCounter>002</PaidAccountsCounter>
+                        <SatisfactoryAccountsCounter>006</SatisfactoryAccountsCounter>
+                        <NowDelinquentCounter>003</NowDelinquentCounter>
+                        <WasDelinquentCounter>000</WasDelinquentCounter>
+                        <OldestTradeDate>0168</OldestTradeDate>
+                        <DayCounter30>  </DayCounter30>
+                        <DayCounter60>  </DayCounter60>
+                        <DayCounter90Plus>  </DayCounter90Plus>
+                        <DerogCounter>  </DerogCounter>
+                </ProfileSummary850>
+                <EndTotals950>
+                        <RecordLength>0016</RecordLength>
+                        <TotalSegments>039</TotalSegments>
+                        <TotalLength>04104</TotalLength>
+                </EndTotals950>
+        </ExperianResponse>
+</Readable></Output></Outputs></ns2:Response></ns2:FDOServiceResponse>

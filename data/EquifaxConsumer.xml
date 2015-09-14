@@ -1,0 +1,75 @@
+<ns2:FDOServiceResponse xmlns:ns2="http://fdo.dam.om.fico.com/fdoserviceresponse"><ns2:Response WorkItemRef="1"><Outputs ActivityId="0ae1a825-9faf-4438-9859-54a84d9e8cdf" ActivityRef="1"><Output name="ReadableResponse"><Readable>   <CreditReport>
+                <HeaderSegment>
+                        <CustomerReferenceNumber>                    </CustomerReferenceNumber>
+                        <EquifaxCustomerNumber>999ZZ53135</EquifaxCustomerNumber>
+                        <ConsumerReferralCode>122</ConsumerReferralCode>
+                        <MultipleReportIndicator>1</MultipleReportIndicator>
+                        <ECOAInquiryType>I</ECOAInquiryType>
+                        <OutputFormatCode>02</OutputFormatCode>
+                        <MonthsToCountInquiries> </MonthsToCountInquiries>
+                        <Filler1> </Filler1>
+                        <HitNoHitDesignatorCode>C</HitNoHitDesignatorCode>
+                        <FileSinceDate>        </FileSinceDate>
+                        <DateOfLastActivity>        </DateOfLastActivity>
+                        <DateOfThisReport>09112015</DateOfThisReport>
+                        <SubjectLastName>                         </SubjectLastName>
+                        <SubjectFirstName>               </SubjectFirstName>
+                        <SubjectMiddleName>               </SubjectMiddleName>
+                        <SubjectSuffix>  </SubjectSuffix>
+                        <SubjectSSN>         </SubjectSSN>
+                        <DateOfBirthOrAge>        </DateOfBirthOrAge>
+                        <Filler2>  </Filler2>
+                        <FirstNameMatchFlag> </FirstNameMatchFlag>
+                        <MiddleNameMatch> </MiddleNameMatch>
+                        <LastNameMatchFlag> </LastNameMatchFlag>
+                        <SuffixMatchFlag> </SuffixMatchFlag>
+                        <Filler3>   </Filler3>
+                        <LinkIndicator> </LinkIndicator>
+                        <DoNotCombineIndicator> </DoNotCombineIndicator>
+                        <NumAdditionalMultiples>0</NumAdditionalMultiples>
+                        <SegmentCounters>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100</SegmentCounters>
+                        <AddressDiscrepancyIndicator> </AddressDiscrepancyIndicator>
+                        <SSNAffirmAlertFlagOrFiller> </SSNAffirmAlertFlagOrFiller>
+                        <FillerOr2ndSAFESCANCode> </FillerOr2ndSAFESCANCode>
+                        <FillerOr3rdSAFESCANCode> </FillerOr3rdSAFESCANCode>
+                        <FillerOr4thSAFESCANCode> </FillerOr4thSAFESCANCode>
+                        <FillerOrIdentityScanIndicator> </FillerOrIdentityScanIndicator>
+                        <Filler4>     </Filler4>
+                        <Filler5>             </Filler5>
+                        <FraudVictimAlertIndicatorCode> </FraudVictimAlertIndicatorCode>
+                        <FillerOr1stSAFESCANCode>A</FillerOr1stSAFESCANCode>
+                </HeaderSegment>
+                <OFACAlertSegment>
+                        <RevisedLegalVerbiageIndicator>2</RevisedLegalVerbiageIndicator>
+                        <Filler1> </Filler1>
+                        <MemberFirmCode>OFAC</MemberFirmCode>
+                        <CustomerNumberAndSecurityDigits>0000000000000000</CustomerNumberAndSecurityDigits>
+                        <CDCTransactionProcessingDate>20150911</CDCTransactionProcessingDate>
+                        <CDCTransactionProcessingTime>022340</CDCTransactionProcessingTime>
+                        <TransactionType>O</TransactionType>
+                        <CDCResponseCode>N</CDCResponseCode>
+                        <CDCProblemCode>  </CDCProblemCode>
+                        <Filler2> </Filler2>
+                        <MatchCodes>      </MatchCodes>
+                        <ProblemReportDate>        </ProblemReportDate>
+                        <IssueSource>                    </IssueSource>
+                        <IssueIDOrReference>                    </IssueIDOrReference>
+                        <Comment>                                                                                                    </Comment>
+                        <OFACFirstName>             </OFACFirstName>
+                        <OFACMiddleInitial> </OFACMiddleInitial>
+                        <OFACLastName>                   </OFACLastName>
+                        <OFACAddress>                              </OFACAddress>
+                        <OFACCity>               </OFACCity>
+                        <OFACState>  </OFACState>
+                        <OFACZIPCode>         </OFACZIPCode>
+                        <OFACCountryCode>   </OFACCountryCode>
+                        <LegalVerbiage>NO MATCH FOUND IN CDC&amp;apos;S OFAC DATABASE.                                                                                                                                                                                                                              </LegalVerbiage>
+                        <Filler3> </Filler3>
+                </OFACAlertSegment>
+                <ReportTerminator>
+                        <Terminator>&amp;amp;</Terminator>
+                </ReportTerminator>
+                <PrintImageSegment>
+                </PrintImageSegment>
+        </CreditReport>
+</Readable></Output></Outputs></ns2:Response></ns2:FDOServiceResponse>
